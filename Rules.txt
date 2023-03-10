@@ -1,0 +1,8 @@
+
+  - rule: rule 1
+    steps:
+      - intent: intent trào ngược bao tử
+      - action: utter trào ngược bao tử
+  - rule: rule 2
+    steps:
+      - action: nan

@@ -1,0 +1,45 @@
+
+- story: story 1
+  steps:
+  - intent: intent_am_dao_bi_ra_mau
+  - action: utter_hoi_den_ky_kinh_nguyet_chua
+  - intent: intent_chua_den_ky_kinh_nguyet
+  - action: utter_hoi_luong_mau_ra_co_nhieu_khong
+  - intent: intent_luong_mau_it
+  - action: utter_co_dung_thuoc_tranh_thai_khan_cap_khong
+  - intent: intent_co_dung_thuoc_tranh_thai_khan_cap
+  - action: utter_tac_dung_phu_cua_thuoc_tranh_thai_khan_cap
+- story: story 2
+  steps:
+  - intent: intent_tre_kinh
+  - action: utter_co_dung_thuoc_tranh_thai_khan_cap_khong
+  - intent: intent_co_dung_thuoc_tranh_thai_khan_cap
+  - action: utter_tac_dung_phu_cua_thuoc_tranh_thai_khan_cap
+- story: story 3
+  steps:
+  - intent: intent_ra_mau_truoc_ki_kinh
+  - action: utter_co_dung_thuoc_tranh_thai_khan_cap_khong
+  - intent: intent_co_dung_thuoc_tranh_thai_khan_cap
+  - action: utter_tac_dung_phu_cua_thuoc_tranh_thai_khan_cap
+- story: story 4
+  steps:
+  - intent: intent_ra_mau_sau_ki_kinh
+  - action: utter_co_dung_thuoc_tranh_thai_khan_cap_khong
+  - intent: intent_co_dung_thuoc_tranh_thai_khan_cap
+  - action: utter_tac_dung_phu_cua_thuoc_tranh_thai_khan_cap
+- story: story 5
+  steps:
+  - intent: intent_quan_he_khong_xam_nhap
+  - action: utter_khong_co_kha_nang_thu_thai
+- story: story 6
+  steps:
+  - intent: intent_bieu_hien_co_thai
+  - action: utter_bieu_hien_co_thai
+- story: story 7
+  steps:
+  - intent: intent_bieu_hien_sap_sinh
+  - action: utter_bieu_hien_sap_sinh
+- story: story 8
+  steps:
+  - intent: intent_bieu_hien_chuyen_da
+  - action: utter_bieu_hien_chuyen_da

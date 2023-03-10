@@ -1,0 +1,25 @@
+
+  utter_hoi_den_ky_kinh_nguyet_chua:
+    - text: "Bạn có đang trong kỳ kinh nguyệt không?"
+
+  utter_hoi_luong_mau_ra_co_nhieu_khong:
+    - text: "Lượng máu ra có nhiều không?"
+
+  utter_co_dung_thuoc_tranh_thai_khan_cap_khong:
+    - text: "Gần đây bạn có dùng thuốc tránh thai khẩn cấp không?"
+
+  utter_tac_dung_phu_cua_thuoc_tranh_thai_khan_cap:
+    - text: "Đây có thể là tác dụng phụ của thuốc tránh thai khẩn cấp."
+
+  utter_khong_co_kha_nang_thu_thai:
+    - text: "Nguy cơ rất thấp, gần như không bạn nhé. Đừng quá lo lắng"
+    - text: "Gần như không thể có thai bạn nhé, đừng lo lắng quá"
+
+  utter_bieu_hien_co_thai:
+    - text: "Chậm kinh, máu báo thai, nghén,...và thử que 2 vạch. Nói chung bạn có thể sẽ thấy cơ thể khác đi nhé. "
+
+  utter_bieu_hien_sap_sinh:
+    - text: "Gần đến ngày sinh thì em bé thúc xuống đường dưới bụng bạn sẽ cảm thấy tụt, nặng nề, thốn hơn và có thể đau lưng hơn bạn nhé"
+
+  utter_bieu_hien_chuyen_da:
+    - text: "Dấu hiệu chuyển dạ có thể có một trong các dấu hiệu sau ra nước nhầy hồng âm đạo, ra nước ra máu âm đạo, đau bụng cứng từng cơn, cơn đau kéo dài và lặp lại, 10 phút khoảng 2-3 cơn. Bạn có 1 trong các dấu hiệu sau bạn đi viện ngay"

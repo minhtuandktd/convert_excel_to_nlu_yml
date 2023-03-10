@@ -1,0 +1,12 @@
+intents:
+  - intent_am_dao_bi_ra_mau
+  - intent_chua_den_ky_kinh_nguyet
+  - intent_luong_mau_it
+  - intent_co_dung_thuoc_tranh_thai_khan_cap
+  - intent_tre_kinh
+  - intent_ra_mau_truoc_ki_kinh
+  - intent_ra_mau_sau_ki_kinh
+  - intent_quan_he_khong_xam_nhap
+  - intent_bieu_hien_co_thai
+  - intent_bieu_hien_sap_sinh
+  - intent_bieu_hien_chuyen_da

@@ -1,0 +1,70 @@
+
+  - intent:  intent_am_dao_bi_ra_mau
+    examples: |
+      - E đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+      - E đang gặp tình trạng âm đạo bị ra máu màu đỏ
+
+  - intent:  intent_chua_den_ky_kinh_nguyet
+    examples: |
+      - 1 tuần nữa mới đến kỳ kinh nguyệt của e
+      - em chưa đến kỳ kinh nguyệt
+      - chưa đến
+
+  - intent:  intent_luong_mau_it
+    examples: |
+      - lượng máu ra ít
+      - khá ít 
+      - không nhiều lắm
+
+  - intent:  intent_co_dung_thuoc_tranh_thai_khan_cap
+    examples: |
+      - tuần trước em có uống thuốc tránh thai khẩn cấp
+      - em có uống thuốc tránh thai khẩn cấp
+      - E uống ttkc cách 5,6 ngày
+      - có dùng
+
+  - intent:  intent_tre_kinh
+    examples: |
+      - Em có kinh trễ 5 ngày so với tháng trước ạ
+      - Em trễ kinh 5 ngày so với tháng trước 
+
+  - intent:  intent_ra_mau_truoc_ki_kinh
+    examples: |
+      - Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ mà 1 tuần nữa mới đến kỳ kinh nguyệt của em
+      - Em còn vài ngày nữa mới đến kỳ kinh nguyệt nhưng em bị ra máu màu nâu đỏ mấy ngày rồi 
+      - Em bị ra máu màu nâu đỏ mà 5 ngày nữa mới đến kỳ kinh nguyệt
+      - Em bị ra máu màu nâu đỏ mà vài ngày nữa mới đến kỳ kinh nguyệt, thế có sao không ạ?
+      - Em còn vài ngày nữa mới đến kỳ kinh nguyệt nhưng em bị ra máu màu nâu đỏ mấy ngày rồi, giờ em có nên làm gì không ạ?
+
+  - intent:  intent_ra_mau_sau_ki_kinh
+    examples: |
+      - Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ lâu hơn chu kì bình thường của em 5 ngày rồi ạ 
+
+  - intent:  intent_quan_he_khong_xam_nhap
+    examples: |
+      - Vừa rồi bạn trai em có quan hệ tình dục bằng tay và trước lúc quan hệ bạn trai em có dính một tí dịch nhỏ từ dương vật nhưng nó không phải tinh trùng à sau đó bạn trai em có lau đi thì vậy có khả năng có thai không ạ thưa bác sĩ ?
+Bạn trai em chỉ chạm ngoài rìa âm đạo thôi ạ 
+      - Em có quan hệ tình dục bằng tay cho bạn gái và em chỉ chạm ngoài rìa âm đạo thôi, thì có khả năng có thai không ạ?
+      - Em và bạn trai có quan hệ tình dục nhưng chỉ ôm, hôn, dùng tay chạm phía ngoài cô bé, và bạn trai em có chạm dương vật ở phía ngoài, dính một chút dịch nhỏ từ dương vật thì có khả năng có thai không ạ ?
+      - Dính dịch từ dương vật ở phía ngoài cô bé và không xâm nhập vào bên trong thì có khả năng có thai không ạ 
+      - Đụng chạm dương vật ở phía ngoài âm đạo mà không làm gì khác thì có khả năng có thai không ạ? 
+      - Bạn trai em có sử dụng bộ phận sinh dục đụng chạm phía ngoài và có rỉ nước ra, thì như vậy có khả năng có thai không ạ?
+
+  - intent:  intent_bieu_hien_co_thai
+    examples: |
+      - Nếu có thai thì sẽ có biểu hiện như thế nào ạ 
+      - Có thai sẽ có những biểu hiện gì ạ ?
+      - Biểu hiện có thai là gì ạ?
+      - Dấu hiệu nhận biết có thai là gì ạ 
+
+  - intent:  intent_bieu_hien_sap_sinh
+    examples: |
+      - Dấu hiệu sắp sinh nó như thế nào nữa ạ
+      - Biểu hiện sắp sinh là gì ạ 
+
+  - intent:  intent_bieu_hien_chuyen_da
+    examples: |
+      - Bác sĩ cho em hỏi dấu hiệu chuyển dạ như thế nào mình cần lưu ý ạ
+      - Cho mình hỏi dấu hiệu chuyển dạ như thế nào ạ?
+      - Dấu hiệu chuyển dạ là gì?
+      - Biểu hiện chuyển dạ như thế nào ạ?
