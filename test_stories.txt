@@ -1,1865 +1,2675 @@
 
 - story: story 1
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_di_gap_bac_si
   - action: utter_dong_thai
 - story: story 2
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_co_gap_moi_nguy_hiem_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_goi_cap_cuu
   - action: utter_ngoai_ra
   - action: utter_goi_canh_sat
 - story: story 3
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_co_gap_moi_nguy_hiem_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_nen_goi_cap_cuu
   - action: utter_nghi_ngo_soc
 - story: story 4
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_nen_goi_cap_cuu
   - action: utter_nghi_ngo_soc_hoac_nhiem_trung
 - story: story 5
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_nen_goi_cap_cuu
   - action: utter_nghi_ngo_soc_hoac_nhiem_trung
 - story: story 6
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_co_gap_moi_nguy_hiem_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_nen_goi_cap_cuu
   - action: utter_nghi_ngo_soc
 - story: story 7
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_co_gap_moi_nguy_hiem_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_goi_cap_cuu
   - action: utter_ngoai_ra
   - action: utter_goi_canh_sat
 - story: story 8
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_nen_goi_cap_cuu
   - action: utter_nghi_ngo_soc
 - story: story 9
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_can_di_kham_trong_12h
   - action: utter_chay_mau_sau_phau_thuat_phu_khoa
 - story: story 10
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chay_mau_bao_lau_roi
   - action: utter_0_8_ngay
   - action: utter_tren_8_ngay
-  - intent: intent_tren_8_ngay
+  - user: |
+      Trên 8 ngày
+    intent: intent_tren_8_ngay
   - action: utter_co_trong_ky_kinh_nguyet_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_trieu_chung
   - action: utter_chay_mau_am_dao
   - action: utter_co_the_cam_nhan_thiet_bi_trong_co_tu_cung
   - action: utter_khong_the_tim_thay_day_noi_cua_thiet_bi_trong_tu_cung
   - action: utter_doi_tac_co_the_cam_nhan_thiet_bi_khi_quan_he
   - action: utter_cac_trieu_chung_khac_lq_thiet_bi_trong_co_tu_cung
-  - intent: intent_chay_mau_am_dao
+  - user: |
+      1. Chảy máu âm đạo
+    intent: intent_chay_mau_am_dao
   - action: utter_ban_co_cam_thay_chong_mat_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_can_di_kham_trong_12h
   - action: utter_chay_mau_chong_mat
 - story: story 11
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chay_mau_bao_lau_roi
   - action: utter_0_8_ngay
   - action: utter_tren_8_ngay
-  - intent: intent_tren_8_ngay
+  - user: |
+      Trên 8 ngày
+    intent: intent_tren_8_ngay
   - action: utter_co_trong_ky_kinh_nguyet_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_trieu_chung
   - action: utter_chay_mau_am_dao
   - action: utter_co_the_cam_nhan_thiet_bi_trong_co_tu_cung
   - action: utter_khong_the_tim_thay_day_noi_cua_thiet_bi_trong_tu_cung
   - action: utter_doi_tac_co_the_cam_nhan_thiet_bi_khi_quan_he
   - action: utter_cac_trieu_chung_khac_lq_thiet_bi_trong_co_tu_cung
-  - intent: intent_chay_mau_am_dao
+  - user: |
+      1. Chảy máu âm đạo
+    intent: intent_chay_mau_am_dao
   - action: utter_ban_co_cam_thay_chong_mat_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_thu_thuat_da_lam
   - action: utter_cat_tu_cung
   - action: utter_cat_buong_trung
   - action: utter_that_ong_dan_trung
   - action: utter_phau_thuat_chan_ong_dan_trung_vinh_vien
   - action: utter_khong_co_danh_sach_neu_tren
-  - intent: intent_khong_co_danh_sach_neu_tren
+  - user: |
+      5. Không có trong danh sách nêu trên
+    intent: intent_khong_co_danh_sach_neu_tren
   - action: utter_co_kn_mang_thai_trong_3_thang_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_ban_su_dung_bien_phap_tranh_thai_gi
   - action: utter_khong_su_dung_bien_phap_tranh_thai
-  - intent: intent_khong_su_dung_bien_phap_tranh_thai
+  - user: |
+      10. Không sử dụng biện pháp tránh thai
+    intent: intent_khong_su_dung_bien_phap_tranh_thai
   - action: utter_ban_co_thai_trong_vong_6_tuan_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_lien_he_bac_si
 - story: story 12
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chay_mau_bao_lau_roi
   - action: utter_0_8_ngay
   - action: utter_tren_8_ngay
-  - intent: intent_tren_8_ngay
+  - user: |
+      Trên 8 ngày
+    intent: intent_tren_8_ngay
   - action: utter_co_trong_ky_kinh_nguyet_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_trieu_chung
   - action: utter_chay_mau_am_dao
   - action: utter_co_the_cam_nhan_thiet_bi_trong_co_tu_cung
   - action: utter_khong_the_tim_thay_day_noi_cua_thiet_bi_trong_tu_cung
   - action: utter_doi_tac_co_the_cam_nhan_thiet_bi_khi_quan_he
   - action: utter_cac_trieu_chung_khac_lq_thiet_bi_trong_co_tu_cung
-  - intent: intent_chay_mau_am_dao
+  - user: |
+      1. Chảy máu âm đạo
+    intent: intent_chay_mau_am_dao
   - action: utter_ban_co_cam_thay_chong_mat_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_thu_thuat_da_lam
   - action: utter_cat_tu_cung
   - action: utter_cat_buong_trung
   - action: utter_that_ong_dan_trung
   - action: utter_phau_thuat_chan_ong_dan_trung_vinh_vien
   - action: utter_khong_co_danh_sach_neu_tren
-  - intent: intent_khong_co_danh_sach_neu_tren
+  - user: |
+      5. Không có trong danh sách nêu trên
+    intent: intent_khong_co_danh_sach_neu_tren
   - action: utter_co_kn_mang_thai_trong_3_thang_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_ban_su_dung_bien_phap_tranh_thai_gi
   - action: utter_khong_su_dung_bien_phap_tranh_thai
-  - intent: intent_khong_su_dung_bien_phap_tranh_thai
+  - user: |
+      10. Không sử dụng biện pháp tránh thai
+    intent: intent_khong_su_dung_bien_phap_tranh_thai
   - action: utter_ban_co_thai_trong_vong_6_tuan_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ban_nghi_co_vat_la_trong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chu_ky_kn_co_thay_doi_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_nen_gap_bs_trong_vong_3_ngay
 - story: story 13
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chay_mau_bao_lau_roi
   - action: utter_0_8_ngay
   - action: utter_tren_8_ngay
-  - intent: intent_tren_8_ngay
+  - user: |
+      Trên 8 ngày
+    intent: intent_tren_8_ngay
   - action: utter_co_trong_ky_kinh_nguyet_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_trieu_chung
   - action: utter_chay_mau_am_dao
   - action: utter_co_the_cam_nhan_thiet_bi_trong_co_tu_cung
   - action: utter_khong_the_tim_thay_day_noi_cua_thiet_bi_trong_tu_cung
   - action: utter_doi_tac_co_the_cam_nhan_thiet_bi_khi_quan_he
   - action: utter_cac_trieu_chung_khac_lq_thiet_bi_trong_co_tu_cung
-  - intent: intent_chay_mau_am_dao
+  - user: |
+      1. Chảy máu âm đạo
+    intent: intent_chay_mau_am_dao
   - action: utter_ban_co_cam_thay_chong_mat_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_thu_thuat_da_lam
   - action: utter_cat_tu_cung
   - action: utter_cat_buong_trung
   - action: utter_that_ong_dan_trung
   - action: utter_phau_thuat_chan_ong_dan_trung_vinh_vien
   - action: utter_khong_co_danh_sach_neu_tren
-  - intent: intent_khong_co_danh_sach_neu_tren
+  - user: |
+      5. Không có trong danh sách nêu trên
+    intent: intent_khong_co_danh_sach_neu_tren
   - action: utter_co_kn_mang_thai_trong_3_thang_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_ban_su_dung_bien_phap_tranh_thai_gi
   - action: utter_khong_su_dung_bien_phap_tranh_thai
-  - intent: intent_khong_su_dung_bien_phap_tranh_thai
+  - user: |
+      10. Không sử dụng biện pháp tránh thai
+    intent: intent_khong_su_dung_bien_phap_tranh_thai
   - action: utter_ban_co_thai_trong_vong_6_tuan_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ban_nghi_co_vat_la_trong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chu_ky_kn_co_thay_doi_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_hay_chon_trieu_chung_chay_mau_am_dao_ban_co
   - action: utter_lam_cham
   - action: utter_khong_co_trong_danh_sach
   - action: utter_chay_mau_sau_khi_quan_he
   - action: utter_chay_mau_am_dao_kieu_khac
-  - intent: intent_lam_cham
+  - user: |
+      1. Lấm chấm
+    intent: intent_lam_cham
   - action: utter_nen_gap_bac_si_trong_1_ngay
   - action: utter_bieu_hien_ngua_viem_am_dao
 - story: story 14
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chay_mau_bao_lau_roi
   - action: utter_0_8_ngay
   - action: utter_tren_8_ngay
-  - intent: intent_tren_8_ngay
+  - user: |
+      Trên 8 ngày
+    intent: intent_tren_8_ngay
   - action: utter_co_trong_ky_kinh_nguyet_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_trieu_chung
   - action: utter_chay_mau_am_dao
   - action: utter_co_the_cam_nhan_thiet_bi_trong_co_tu_cung
   - action: utter_khong_the_tim_thay_day_noi_cua_thiet_bi_trong_tu_cung
   - action: utter_doi_tac_co_the_cam_nhan_thiet_bi_khi_quan_he
   - action: utter_cac_trieu_chung_khac_lq_thiet_bi_trong_co_tu_cung
-  - intent: intent_chay_mau_am_dao
+  - user: |
+      1. Chảy máu âm đạo
+    intent: intent_chay_mau_am_dao
   - action: utter_ban_co_cam_thay_chong_mat_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_thu_thuat_da_lam
   - action: utter_cat_tu_cung
   - action: utter_cat_buong_trung
   - action: utter_that_ong_dan_trung
   - action: utter_phau_thuat_chan_ong_dan_trung_vinh_vien
   - action: utter_khong_co_danh_sach_neu_tren
-  - intent: intent_khong_co_danh_sach_neu_tren
+  - user: |
+      5. Không có trong danh sách nêu trên
+    intent: intent_khong_co_danh_sach_neu_tren
   - action: utter_co_kn_mang_thai_trong_3_thang_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_ban_su_dung_bien_phap_tranh_thai_gi
   - action: utter_khong_su_dung_bien_phap_tranh_thai
-  - intent: intent_khong_su_dung_bien_phap_tranh_thai
+  - user: |
+      10. Không sử dụng biện pháp tránh thai
+    intent: intent_khong_su_dung_bien_phap_tranh_thai
   - action: utter_ban_co_thai_trong_vong_6_tuan_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ban_nghi_co_vat_la_trong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chu_ky_kn_co_thay_doi_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_hay_chon_trieu_chung_chay_mau_am_dao_ban_co
   - action: utter_lam_cham
   - action: utter_khong_co_trong_danh_sach
   - action: utter_chay_mau_sau_khi_quan_he
   - action: utter_chay_mau_am_dao_kieu_khac
-  - intent: intent_khong_co_trong_danh_sach
+  - user: |
+      2. Không có trong danh sách
+    intent: intent_khong_co_trong_danh_sach
   - action: utter_nen_gap_bac_si_trong_1_ngay
   - action: utter_bieu_hien_ngua_viem_am_dao
 - story: story 15
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chay_mau_bao_lau_roi
   - action: utter_0_8_ngay
   - action: utter_tren_8_ngay
-  - intent: intent_tren_8_ngay
+  - user: |
+      Trên 8 ngày
+    intent: intent_tren_8_ngay
   - action: utter_co_trong_ky_kinh_nguyet_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_trieu_chung
   - action: utter_chay_mau_am_dao
   - action: utter_co_the_cam_nhan_thiet_bi_trong_co_tu_cung
   - action: utter_khong_the_tim_thay_day_noi_cua_thiet_bi_trong_tu_cung
   - action: utter_doi_tac_co_the_cam_nhan_thiet_bi_khi_quan_he
   - action: utter_cac_trieu_chung_khac_lq_thiet_bi_trong_co_tu_cung
-  - intent: intent_chay_mau_am_dao
+  - user: |
+      1. Chảy máu âm đạo
+    intent: intent_chay_mau_am_dao
   - action: utter_ban_co_cam_thay_chong_mat_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_thu_thuat_da_lam
   - action: utter_cat_tu_cung
   - action: utter_cat_buong_trung
   - action: utter_that_ong_dan_trung
   - action: utter_phau_thuat_chan_ong_dan_trung_vinh_vien
   - action: utter_khong_co_danh_sach_neu_tren
-  - intent: intent_khong_co_danh_sach_neu_tren
+  - user: |
+      5. Không có trong danh sách nêu trên
+    intent: intent_khong_co_danh_sach_neu_tren
   - action: utter_co_kn_mang_thai_trong_3_thang_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_ban_su_dung_bien_phap_tranh_thai_gi
   - action: utter_khong_su_dung_bien_phap_tranh_thai
-  - intent: intent_khong_su_dung_bien_phap_tranh_thai
+  - user: |
+      10. Không sử dụng biện pháp tránh thai
+    intent: intent_khong_su_dung_bien_phap_tranh_thai
   - action: utter_ban_co_thai_trong_vong_6_tuan_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ban_nghi_co_vat_la_trong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chu_ky_kn_co_thay_doi_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_hay_chon_trieu_chung_chay_mau_am_dao_ban_co
   - action: utter_lam_cham
   - action: utter_khong_co_trong_danh_sach
   - action: utter_chay_mau_sau_khi_quan_he
   - action: utter_chay_mau_am_dao_kieu_khac
-  - intent: intent_chay_mau_sau_khi_quan_he
+  - user: |
+      3. Chảy máu sau khi quan hệ (không trong kì kinh)
+    intent: intent_chay_mau_sau_khi_quan_he
   - action: utter_nen_gap_bac_si_trong_1_ngay
   - action: utter_bieu_hien_ngua_viem_am_dao
 - story: story 16
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chay_mau_bao_lau_roi
   - action: utter_0_8_ngay
   - action: utter_tren_8_ngay
-  - intent: intent_tren_8_ngay
+  - user: |
+      Trên 8 ngày
+    intent: intent_tren_8_ngay
   - action: utter_co_trong_ky_kinh_nguyet_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_trieu_chung
   - action: utter_chay_mau_am_dao
   - action: utter_co_the_cam_nhan_thiet_bi_trong_co_tu_cung
   - action: utter_khong_the_tim_thay_day_noi_cua_thiet_bi_trong_tu_cung
   - action: utter_doi_tac_co_the_cam_nhan_thiet_bi_khi_quan_he
   - action: utter_cac_trieu_chung_khac_lq_thiet_bi_trong_co_tu_cung
-  - intent: intent_chay_mau_am_dao
+  - user: |
+      1. Chảy máu âm đạo
+    intent: intent_chay_mau_am_dao
   - action: utter_ban_co_cam_thay_chong_mat_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_thu_thuat_da_lam
   - action: utter_cat_tu_cung
   - action: utter_cat_buong_trung
   - action: utter_that_ong_dan_trung
   - action: utter_phau_thuat_chan_ong_dan_trung_vinh_vien
   - action: utter_khong_co_danh_sach_neu_tren
-  - intent: intent_khong_co_danh_sach_neu_tren
+  - user: |
+      5. Không có trong danh sách nêu trên
+    intent: intent_khong_co_danh_sach_neu_tren
   - action: utter_co_kn_mang_thai_trong_3_thang_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_ban_su_dung_bien_phap_tranh_thai_gi
   - action: utter_khong_su_dung_bien_phap_tranh_thai
-  - intent: intent_khong_su_dung_bien_phap_tranh_thai
+  - user: |
+      10. Không sử dụng biện pháp tránh thai
+    intent: intent_khong_su_dung_bien_phap_tranh_thai
   - action: utter_ban_co_thai_trong_vong_6_tuan_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ban_nghi_co_vat_la_trong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chu_ky_kn_co_thay_doi_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_hay_chon_trieu_chung_chay_mau_am_dao_ban_co
   - action: utter_lam_cham
   - action: utter_khong_co_trong_danh_sach
   - action: utter_chay_mau_sau_khi_quan_he
   - action: utter_chay_mau_am_dao_kieu_khac
-  - intent: intent_chay_mau_am_dao_kieu_khac
+  - user: |
+      4. Chảy máu âm đạo kiểu khác hoặc tình trạng ra máu không được liệt kê
+    intent: intent_chay_mau_am_dao_kieu_khac
   - action: utter_nen_gap_bac_si_trong_1_ngay
   - action: utter_bieu_hien_ngua_viem_am_dao
 - story: story 17
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chay_mau_bao_lau_roi
   - action: utter_0_8_ngay
   - action: utter_tren_8_ngay
-  - intent: intent_tren_8_ngay
+  - user: |
+      Trên 8 ngày
+    intent: intent_tren_8_ngay
   - action: utter_co_trong_ky_kinh_nguyet_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_trieu_chung
   - action: utter_chay_mau_am_dao
   - action: utter_co_the_cam_nhan_thiet_bi_trong_co_tu_cung
   - action: utter_khong_the_tim_thay_day_noi_cua_thiet_bi_trong_tu_cung
   - action: utter_doi_tac_co_the_cam_nhan_thiet_bi_khi_quan_he
   - action: utter_cac_trieu_chung_khac_lq_thiet_bi_trong_co_tu_cung
-  - intent: intent_chay_mau_am_dao
+  - user: |
+      1. Chảy máu âm đạo
+    intent: intent_chay_mau_am_dao
   - action: utter_ban_co_cam_thay_chong_mat_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_thu_thuat_da_lam
   - action: utter_cat_tu_cung
   - action: utter_cat_buong_trung
   - action: utter_that_ong_dan_trung
   - action: utter_phau_thuat_chan_ong_dan_trung_vinh_vien
   - action: utter_khong_co_danh_sach_neu_tren
-  - intent: intent_khong_co_danh_sach_neu_tren
+  - user: |
+      5. Không có trong danh sách nêu trên
+    intent: intent_khong_co_danh_sach_neu_tren
   - action: utter_co_kn_mang_thai_trong_3_thang_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_ban_su_dung_bien_phap_tranh_thai_gi
   - action: utter_khong_su_dung_bien_phap_tranh_thai
-  - intent: intent_khong_su_dung_bien_phap_tranh_thai
+  - user: |
+      10. Không sử dụng biện pháp tránh thai
+    intent: intent_khong_su_dung_bien_phap_tranh_thai
   - action: utter_ban_co_thai_trong_vong_6_tuan_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ban_nghi_co_vat_la_trong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_nen_gap_bsi_trong_24h
   - action: utter_nghi_ngo_co_vat_the_la_trong_am_dao
 - story: story 18
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chay_mau_bao_lau_roi
   - action: utter_0_8_ngay
   - action: utter_tren_8_ngay
-  - intent: intent_tren_8_ngay
+  - user: |
+      Trên 8 ngày
+    intent: intent_tren_8_ngay
   - action: utter_co_trong_ky_kinh_nguyet_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_trieu_chung
   - action: utter_chay_mau_am_dao
   - action: utter_co_the_cam_nhan_thiet_bi_trong_co_tu_cung
   - action: utter_khong_the_tim_thay_day_noi_cua_thiet_bi_trong_tu_cung
   - action: utter_doi_tac_co_the_cam_nhan_thiet_bi_khi_quan_he
   - action: utter_cac_trieu_chung_khac_lq_thiet_bi_trong_co_tu_cung
-  - intent: intent_chay_mau_am_dao
+  - user: |
+      1. Chảy máu âm đạo
+    intent: intent_chay_mau_am_dao
   - action: utter_ban_co_cam_thay_chong_mat_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_thu_thuat_da_lam
   - action: utter_cat_tu_cung
   - action: utter_cat_buong_trung
   - action: utter_that_ong_dan_trung
   - action: utter_phau_thuat_chan_ong_dan_trung_vinh_vien
   - action: utter_khong_co_danh_sach_neu_tren
-  - intent: intent_khong_co_danh_sach_neu_tren
+  - user: |
+      5. Không có trong danh sách nêu trên
+    intent: intent_khong_co_danh_sach_neu_tren
   - action: utter_co_kn_mang_thai_trong_3_thang_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ban_nghi_co_vat_la_trong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_nen_gap_bsi_trong_24h
   - action: utter_nghi_ngo_co_vat_the_la_trong_am_dao
 - story: story 19
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chay_mau_bao_lau_roi
   - action: utter_0_8_ngay
   - action: utter_tren_8_ngay
-  - intent: intent_tren_8_ngay
+  - user: |
+      Trên 8 ngày
+    intent: intent_tren_8_ngay
   - action: utter_co_trong_ky_kinh_nguyet_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_trieu_chung
   - action: utter_chay_mau_am_dao
   - action: utter_co_the_cam_nhan_thiet_bi_trong_co_tu_cung
   - action: utter_khong_the_tim_thay_day_noi_cua_thiet_bi_trong_tu_cung
   - action: utter_doi_tac_co_the_cam_nhan_thiet_bi_khi_quan_he
   - action: utter_cac_trieu_chung_khac_lq_thiet_bi_trong_co_tu_cung
-  - intent: intent_chay_mau_am_dao
+  - user: |
+      1. Chảy máu âm đạo
+    intent: intent_chay_mau_am_dao
   - action: utter_ban_co_cam_thay_chong_mat_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_thu_thuat_da_lam
   - action: utter_cat_tu_cung
   - action: utter_cat_buong_trung
   - action: utter_that_ong_dan_trung
   - action: utter_phau_thuat_chan_ong_dan_trung_vinh_vien
   - action: utter_khong_co_danh_sach_neu_tren
-  - intent: intent_khong_co_danh_sach_neu_tren
+  - user: |
+      5. Không có trong danh sách nêu trên
+    intent: intent_khong_co_danh_sach_neu_tren
   - action: utter_co_kn_mang_thai_trong_3_thang_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ban_nghi_co_vat_la_trong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chu_ky_kn_co_thay_doi_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_hay_chon_trieu_chung_chay_mau_am_dao_ban_co
   - action: utter_lam_cham
   - action: utter_khong_co_trong_danh_sach
   - action: utter_chay_mau_sau_khi_quan_he
   - action: utter_chay_mau_am_dao_kieu_khac
-  - intent: intent_chay_mau_am_dao_kieu_khac
+  - user: |
+      4. Chảy máu âm đạo kiểu khác hoặc tình trạng ra máu không được liệt kê
+    intent: intent_chay_mau_am_dao_kieu_khac
   - action: utter_nen_gap_bac_si_trong_1_ngay
   - action: utter_bieu_hien_ngua_viem_am_dao
 - story: story 20
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chay_mau_bao_lau_roi
   - action: utter_0_8_ngay
   - action: utter_tren_8_ngay
-  - intent: intent_tren_8_ngay
+  - user: |
+      Trên 8 ngày
+    intent: intent_tren_8_ngay
   - action: utter_co_trong_ky_kinh_nguyet_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_trieu_chung
   - action: utter_chay_mau_am_dao
   - action: utter_co_the_cam_nhan_thiet_bi_trong_co_tu_cung
   - action: utter_khong_the_tim_thay_day_noi_cua_thiet_bi_trong_tu_cung
   - action: utter_doi_tac_co_the_cam_nhan_thiet_bi_khi_quan_he
   - action: utter_cac_trieu_chung_khac_lq_thiet_bi_trong_co_tu_cung
-  - intent: intent_chay_mau_am_dao
+  - user: |
+      1. Chảy máu âm đạo
+    intent: intent_chay_mau_am_dao
   - action: utter_ban_co_cam_thay_chong_mat_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_thu_thuat_da_lam
   - action: utter_cat_tu_cung
   - action: utter_cat_buong_trung
   - action: utter_that_ong_dan_trung
   - action: utter_phau_thuat_chan_ong_dan_trung_vinh_vien
   - action: utter_khong_co_danh_sach_neu_tren
-  - intent: intent_khong_co_danh_sach_neu_tren
+  - user: |
+      5. Không có trong danh sách nêu trên
+    intent: intent_khong_co_danh_sach_neu_tren
   - action: utter_co_kn_mang_thai_trong_3_thang_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ban_nghi_co_vat_la_trong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chu_ky_kn_co_thay_doi_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_nen_gap_bs_trong_vong_3_ngay
 - story: story 21
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chay_mau_bao_lau_roi
   - action: utter_0_8_ngay
   - action: utter_tren_8_ngay
-  - intent: intent_tren_8_ngay
+  - user: |
+      Trên 8 ngày
+    intent: intent_tren_8_ngay
   - action: utter_co_trong_ky_kinh_nguyet_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_trieu_chung
   - action: utter_chay_mau_am_dao
   - action: utter_co_the_cam_nhan_thiet_bi_trong_co_tu_cung
   - action: utter_khong_the_tim_thay_day_noi_cua_thiet_bi_trong_tu_cung
   - action: utter_doi_tac_co_the_cam_nhan_thiet_bi_khi_quan_he
   - action: utter_cac_trieu_chung_khac_lq_thiet_bi_trong_co_tu_cung
-  - intent: intent_chay_mau_am_dao
+  - user: |
+      1. Chảy máu âm đạo
+    intent: intent_chay_mau_am_dao
   - action: utter_ban_co_cam_thay_chong_mat_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_thu_thuat_da_lam
   - action: utter_cat_tu_cung
   - action: utter_cat_buong_trung
   - action: utter_that_ong_dan_trung
   - action: utter_phau_thuat_chan_ong_dan_trung_vinh_vien
   - action: utter_khong_co_danh_sach_neu_tren
-  - intent: intent_khong_co_danh_sach_neu_tren
+  - user: |
+      5. Không có trong danh sách nêu trên
+    intent: intent_khong_co_danh_sach_neu_tren
   - action: utter_co_kn_mang_thai_trong_3_thang_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ban_nghi_co_vat_la_trong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chu_ky_kn_co_thay_doi_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_hay_chon_trieu_chung_chay_mau_am_dao_ban_co
   - action: utter_lam_cham
   - action: utter_khong_co_trong_danh_sach
   - action: utter_chay_mau_sau_khi_quan_he
   - action: utter_chay_mau_am_dao_kieu_khac
-  - intent: intent_lam_cham
+  - user: |
+      1. Lấm chấm
+    intent: intent_lam_cham
   - action: utter_nen_gap_bac_si_trong_1_ngay
   - action: utter_bieu_hien_ngua_viem_am_dao
 - story: story 22
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chay_mau_bao_lau_roi
   - action: utter_0_8_ngay
   - action: utter_tren_8_ngay
-  - intent: intent_tren_8_ngay
+  - user: |
+      Trên 8 ngày
+    intent: intent_tren_8_ngay
   - action: utter_co_trong_ky_kinh_nguyet_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_trieu_chung
   - action: utter_chay_mau_am_dao
   - action: utter_co_the_cam_nhan_thiet_bi_trong_co_tu_cung
   - action: utter_khong_the_tim_thay_day_noi_cua_thiet_bi_trong_tu_cung
   - action: utter_doi_tac_co_the_cam_nhan_thiet_bi_khi_quan_he
   - action: utter_cac_trieu_chung_khac_lq_thiet_bi_trong_co_tu_cung
-  - intent: intent_chay_mau_am_dao
+  - user: |
+      1. Chảy máu âm đạo
+    intent: intent_chay_mau_am_dao
   - action: utter_ban_co_cam_thay_chong_mat_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_thu_thuat_da_lam
   - action: utter_cat_tu_cung
   - action: utter_cat_buong_trung
   - action: utter_that_ong_dan_trung
   - action: utter_phau_thuat_chan_ong_dan_trung_vinh_vien
   - action: utter_khong_co_danh_sach_neu_tren
-  - intent: intent_khong_co_danh_sach_neu_tren
+  - user: |
+      5. Không có trong danh sách nêu trên
+    intent: intent_khong_co_danh_sach_neu_tren
   - action: utter_co_kn_mang_thai_trong_3_thang_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ban_nghi_co_vat_la_trong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chu_ky_kn_co_thay_doi_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_hay_chon_trieu_chung_chay_mau_am_dao_ban_co
   - action: utter_lam_cham
   - action: utter_khong_co_trong_danh_sach
   - action: utter_chay_mau_sau_khi_quan_he
   - action: utter_chay_mau_am_dao_kieu_khac
-  - intent: intent_khong_co_trong_danh_sach
+  - user: |
+      2. Không có trong danh sách
+    intent: intent_khong_co_trong_danh_sach
   - action: utter_nen_gap_bac_si_trong_1_ngay
   - action: utter_bieu_hien_ngua_viem_am_dao
 - story: story 23
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chay_mau_bao_lau_roi
   - action: utter_0_8_ngay
   - action: utter_tren_8_ngay
-  - intent: intent_tren_8_ngay
+  - user: |
+      Trên 8 ngày
+    intent: intent_tren_8_ngay
   - action: utter_co_trong_ky_kinh_nguyet_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_trieu_chung
   - action: utter_chay_mau_am_dao
   - action: utter_co_the_cam_nhan_thiet_bi_trong_co_tu_cung
   - action: utter_khong_the_tim_thay_day_noi_cua_thiet_bi_trong_tu_cung
   - action: utter_doi_tac_co_the_cam_nhan_thiet_bi_khi_quan_he
   - action: utter_cac_trieu_chung_khac_lq_thiet_bi_trong_co_tu_cung
-  - intent: intent_chay_mau_am_dao
+  - user: |
+      1. Chảy máu âm đạo
+    intent: intent_chay_mau_am_dao
   - action: utter_ban_co_cam_thay_chong_mat_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_thu_thuat_da_lam
   - action: utter_cat_tu_cung
   - action: utter_cat_buong_trung
   - action: utter_that_ong_dan_trung
   - action: utter_phau_thuat_chan_ong_dan_trung_vinh_vien
   - action: utter_khong_co_danh_sach_neu_tren
-  - intent: intent_khong_co_danh_sach_neu_tren
+  - user: |
+      5. Không có trong danh sách nêu trên
+    intent: intent_khong_co_danh_sach_neu_tren
   - action: utter_co_kn_mang_thai_trong_3_thang_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ban_nghi_co_vat_la_trong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chu_ky_kn_co_thay_doi_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_hay_chon_trieu_chung_chay_mau_am_dao_ban_co
   - action: utter_lam_cham
   - action: utter_khong_co_trong_danh_sach
   - action: utter_chay_mau_sau_khi_quan_he
   - action: utter_chay_mau_am_dao_kieu_khac
-  - intent: intent_chay_mau_sau_khi_quan_he
+  - user: |
+      3. Chảy máu sau khi quan hệ (không trong kì kinh)
+    intent: intent_chay_mau_sau_khi_quan_he
   - action: utter_nen_gap_bac_si_trong_1_ngay
   - action: utter_bieu_hien_ngua_viem_am_dao
 - story: story 24
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chay_mau_bao_lau_roi
   - action: utter_0_8_ngay
   - action: utter_tren_8_ngay
-  - intent: intent_tren_8_ngay
+  - user: |
+      Trên 8 ngày
+    intent: intent_tren_8_ngay
   - action: utter_co_trong_ky_kinh_nguyet_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_trieu_chung
   - action: utter_chay_mau_am_dao
   - action: utter_co_the_cam_nhan_thiet_bi_trong_co_tu_cung
   - action: utter_khong_the_tim_thay_day_noi_cua_thiet_bi_trong_tu_cung
   - action: utter_doi_tac_co_the_cam_nhan_thiet_bi_khi_quan_he
   - action: utter_cac_trieu_chung_khac_lq_thiet_bi_trong_co_tu_cung
-  - intent: intent_chay_mau_am_dao
+  - user: |
+      1. Chảy máu âm đạo
+    intent: intent_chay_mau_am_dao
   - action: utter_ban_co_cam_thay_chong_mat_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_thu_thuat_da_lam
   - action: utter_cat_tu_cung
   - action: utter_cat_buong_trung
   - action: utter_that_ong_dan_trung
   - action: utter_phau_thuat_chan_ong_dan_trung_vinh_vien
   - action: utter_khong_co_danh_sach_neu_tren
-  - intent: intent_cat_tu_cung
+  - user: |
+      1. Cắt tử cung
+    intent: intent_cat_tu_cung
   - action: utter_ban_nghi_co_vat_la_trong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chu_ky_kn_co_thay_doi_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_nen_gap_bs_trong_vong_3_ngay
 - story: story 25
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chay_mau_bao_lau_roi
   - action: utter_0_8_ngay
   - action: utter_tren_8_ngay
-  - intent: intent_tren_8_ngay
+  - user: |
+      Trên 8 ngày
+    intent: intent_tren_8_ngay
   - action: utter_co_trong_ky_kinh_nguyet_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_trieu_chung
   - action: utter_chay_mau_am_dao
   - action: utter_co_the_cam_nhan_thiet_bi_trong_co_tu_cung
   - action: utter_khong_the_tim_thay_day_noi_cua_thiet_bi_trong_tu_cung
   - action: utter_doi_tac_co_the_cam_nhan_thiet_bi_khi_quan_he
   - action: utter_cac_trieu_chung_khac_lq_thiet_bi_trong_co_tu_cung
-  - intent: intent_chay_mau_am_dao
+  - user: |
+      1. Chảy máu âm đạo
+    intent: intent_chay_mau_am_dao
   - action: utter_ban_co_cam_thay_chong_mat_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_chon_ds_thu_thuat_da_lam
   - action: utter_cat_tu_cung
   - action: utter_cat_buong_trung
   - action: utter_that_ong_dan_trung
   - action: utter_phau_thuat_chan_ong_dan_trung_vinh_vien
   - action: utter_khong_co_danh_sach_neu_tren
-  - intent: intent_cat_tu_cung
+  - user: |
+      1. Cắt tử cung
+    intent: intent_cat_tu_cung
   - action: utter_ban_nghi_co_vat_la_trong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_nen_gap_bsi_trong_24h
   - action: utter_nghi_ngo_co_vat_the_la_trong_am_dao
 - story: story 26
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_tt_xau_di_sau_gap_bsi
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_bsi_hdan_cach_xu_ly
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_gap_th_nao_khi_lam_theo_hdan_bsi
   - action: utter_ko_the_lam_theo_hdan
   - action: utter_da_lam_theo_hdan_tt_nhu_cu
   - action: utter_da_lam_theo_hdan_tt_thay_doi
   - action: utter_chua_lam_theo_hdan
-  - intent: intent_ko_the_lam_theo_hdan
+  - user: |
+      Không thể hoặc không muốn làm theo hướng dẫn của bác sĩ
+    intent: intent_ko_the_lam_theo_hdan
   - action: utter_nen_gap_bsi_trong_24h
 - story: story 27
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_tt_xau_di_sau_gap_bsi
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_bsi_hdan_cach_xu_ly
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_gap_th_nao_khi_lam_theo_hdan_bsi
   - action: utter_ko_the_lam_theo_hdan
   - action: utter_da_lam_theo_hdan_tt_nhu_cu
   - action: utter_da_lam_theo_hdan_tt_thay_doi
   - action: utter_chua_lam_theo_hdan
-  - intent: intent_da_lam_theo_hdan_tt_nhu_cu
+  - user: |
+      Đã làm theo hướng dẫn nhưng triệu chứng gần như không thay đổi 
+    intent: intent_da_lam_theo_hdan_tt_nhu_cu
   - action: utter_nen_gap_bsi_trong_24h
 - story: story 28
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_tt_xau_di_sau_gap_bsi
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_bsi_hdan_cach_xu_ly
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_gap_th_nao_khi_lam_theo_hdan_bsi
   - action: utter_ko_the_lam_theo_hdan
   - action: utter_da_lam_theo_hdan_tt_nhu_cu
   - action: utter_da_lam_theo_hdan_tt_thay_doi
   - action: utter_chua_lam_theo_hdan
-  - intent: intent_da_lam_theo_hdan_tt_thay_doi
+  - user: |
+      Đã làm theo hướng dẫn và triệu chứng thay đổi rõ rệt 
+    intent: intent_da_lam_theo_hdan_tt_thay_doi
   - action: utter_nen_o_nha_theo_doi
   - action: utter_details_tt_duoc_cai_thien_theo_hdan
 - story: story 29
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_tt_xau_di_sau_gap_bsi
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_bsi_hdan_cach_xu_ly
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_gap_th_nao_khi_lam_theo_hdan_bsi
   - action: utter_ko_the_lam_theo_hdan
   - action: utter_da_lam_theo_hdan_tt_nhu_cu
   - action: utter_da_lam_theo_hdan_tt_thay_doi
   - action: utter_chua_lam_theo_hdan
-  - intent: intent_chua_lam_theo_hdan
+  - user: |
+      Chưa làm theo hướng dẫn
+    intent: intent_chua_lam_theo_hdan
   - action: utter_nen_o_nha_theo_doi
   - action: utter_details_chua_lam_theo_hdan
 - story: story 30
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_tt_xau_di_sau_gap_bsi
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_bsi_hdan_cach_xu_ly
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_nen_gap_bsi_trong_24h
   - action: utter_chay_mau_am_dao_da_duoc_bac_si_kham
 - story: story 31
   steps:
-  - intent: intent_am_dao_bi_ra_mau
+  - user: |
+      Em đang gặp tình trạng âm đạo bị ra máu màu nâu đỏ
+    intent: intent_am_dao_bi_ra_mau
   - action: utter_co_thai_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_danh_sach_cac_trieu_chung_cap_cuu
   - action: utter_cam_thay_co_the_ngat
   - action: utter_chay_mau_du_doi
   - action: utter_dau_bung_du_doi
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_cam_thay_co_the_ngat
+  - user: |
+      Cảm thấy có thể ngất bất cứ lúc nào khi đứng hoặc ngồi
+    intent: intent_cam_thay_co_the_ngat
   - action: utter_doi_tu_the_nam_co chong_mat
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_xam_hai_tinh_duc
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_trong_48_gio_co_bi_ton_thuong_am_dao
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_ra_mau_the_nao
   - action: utter_ra_mau_binh_thuong
   - action: utter_ra_mau_vua_vua
   - action: utter_spotting
   - action: utter_hien_tai_khong_ra_mau
-  - intent: intent_ra_mau_binh_thuong
+  - user: |
+      1. Ra máu bình thường (máu hồng, đỏ hoặc nâu và cần dùng đến băng vệ sinh hoặc tampon nhưng không làm tràn băng trong 1 giờ)
+    intent: intent_ra_mau_binh_thuong
   - action: utter_co_thuc_hien_phau_thuat_o_bung_khong
   - action: utter_co
   - action: utter_khong
-  - intent: intent_khong
+  - user: |
+      Không
+    intent: intent_khong
   - action: utter_da_gap_bac_si_chua
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_tt_xau_di_sau_gap_bsi
   - action: utter_co
   - action: utter_khong
-  - intent: intent_co
+  - user: |
+      Có
+    intent: intent_co
   - action: utter_chay_mau_bao_lau_roi
   - action: utter_0_8_ngay
   - action: utter_tren_8_ngay
-  - intent: intent_0_8_ngay
+  - user: |
+      0-8 ngày
+    intent: intent_0_8_ngay
   - action: utter_chon_ds_trieu_chung
   - action: utter_dau_khi_di_tieu
   - action: utter_sot_tren_38_do
@@ -1870,6 +2680,8 @@
   - action: utter_dau_do_ngua_bp_sinh_duc
   - action: utter_nghi_ngo_tbi_trong_tu_cung
   - action: utter_khong_co_trieu_chung_neu_tren
-  - intent: intent_dau_khi_di_tieu
+  - user: |
+      Đau khi đi tiểu
+    intent: intent_dau_khi_di_tieu
   - action: utter_nen_gap_bsi_trong_24h
   - action: utter_details_nhiem_trung_duong_tiet_nieu

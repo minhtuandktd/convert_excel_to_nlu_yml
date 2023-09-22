@@ -1,0 +1,387 @@
+version: '3.1' 
+rules:
+- rule: rule_xin_chao
+  steps:
+  - intent: xin_chao
+  - action: utter_xin_chao
+
+
+- rule: rule_65080868113633ded84ce9e8
+  steps:
+  - intent: intent_65080868113633ded84ce9e8
+  - action: utter_65080868113633ded84ce9e8
+
+- rule: rule_65080868113633ded84ce9e9
+  steps:
+  - intent: intent_65080868113633ded84ce9e9
+  - action: utter_65080868113633ded84ce9e9
+
+- rule: rule_65080868113633ded84ce9ea
+  steps:
+  - intent: intent_65080868113633ded84ce9ea
+  - action: utter_65080868113633ded84ce9ea
+
+- rule: rule_65080868113633ded84ce9eb
+  steps:
+  - intent: intent_65080868113633ded84ce9eb
+  - action: utter_65080868113633ded84ce9eb
+
+- rule: rule_65080868113633ded84ce9ec
+  steps:
+  - intent: intent_65080868113633ded84ce9ec
+  - action: utter_65080868113633ded84ce9ec
+
+- rule: rule_65080868113633ded84ce9ed
+  steps:
+  - intent: intent_65080868113633ded84ce9ed
+  - action: utter_65080868113633ded84ce9ed
+
+- rule: rule_65080868113633ded84ce9ee
+  steps:
+  - intent: intent_65080868113633ded84ce9ee
+  - action: utter_65080868113633ded84ce9ee
+
+- rule: rule_65080868113633ded84ce9ef
+  steps:
+  - intent: intent_65080868113633ded84ce9ef
+  - action: utter_65080868113633ded84ce9ef
+
+- rule: rule_65080868113633ded84ce9f0
+  steps:
+  - intent: intent_65080868113633ded84ce9f0
+  - action: utter_65080868113633ded84ce9f0
+
+- rule: rule_65080868113633ded84ce9f1
+  steps:
+  - intent: intent_65080868113633ded84ce9f1
+  - action: utter_65080868113633ded84ce9f1
+
+- rule: rule_65080868113633ded84ce9f2
+  steps:
+  - intent: intent_65080868113633ded84ce9f2
+  - action: utter_65080868113633ded84ce9f2
+
+- rule: rule_65080868113633ded84ce9f3
+  steps:
+  - intent: intent_65080868113633ded84ce9f3
+  - action: utter_65080868113633ded84ce9f3
+
+- rule: rule_65080868113633ded84ce9f4
+  steps:
+  - intent: intent_65080868113633ded84ce9f4
+  - action: utter_65080868113633ded84ce9f4
+
+- rule: rule_65080868113633ded84ce9f5
+  steps:
+  - intent: intent_65080868113633ded84ce9f5
+  - action: utter_65080868113633ded84ce9f5
+
+- rule: rule_65080868113633ded84ce9f6
+  steps:
+  - intent: intent_65080868113633ded84ce9f6
+  - action: utter_65080868113633ded84ce9f6
+
+- rule: rule_65080868113633ded84ce9f7
+  steps:
+  - intent: intent_65080868113633ded84ce9f7
+  - action: utter_65080868113633ded84ce9f7
+
+- rule: rule_65080868113633ded84ce9f8
+  steps:
+  - intent: intent_65080868113633ded84ce9f8
+  - action: utter_65080868113633ded84ce9f8
+
+- rule: rule_65080868113633ded84ce9f9
+  steps:
+  - intent: intent_65080868113633ded84ce9f9
+  - action: utter_65080868113633ded84ce9f9
+
+- rule: rule_65080868113633ded84ce9fa
+  steps:
+  - intent: intent_65080868113633ded84ce9fa
+  - action: utter_65080868113633ded84ce9fa
+
+- rule: rule_65080868113633ded84ce9fb
+  steps:
+  - intent: intent_65080868113633ded84ce9fb
+  - action: utter_65080868113633ded84ce9fb
+
+- rule: rule_65080868113633ded84ce9fc
+  steps:
+  - intent: intent_65080868113633ded84ce9fc
+  - action: utter_65080868113633ded84ce9fc
+
+- rule: rule_65080868113633ded84ce9fd
+  steps:
+  - intent: intent_65080868113633ded84ce9fd
+  - action: utter_65080868113633ded84ce9fd
+
+- rule: rule_65080868113633ded84ce9fe
+  steps:
+  - intent: intent_65080868113633ded84ce9fe
+  - action: utter_65080868113633ded84ce9fe
+
+- rule: rule_65080868113633ded84ce9ff
+  steps:
+  - intent: intent_65080868113633ded84ce9ff
+  - action: utter_65080868113633ded84ce9ff
+
+- rule: rule_65080868113633ded84cea00
+  steps:
+  - intent: intent_65080868113633ded84cea00
+  - action: utter_65080868113633ded84cea00
+
+- rule: rule_65080868113633ded84cea01
+  steps:
+  - intent: intent_65080868113633ded84cea01
+  - action: utter_65080868113633ded84cea01
+
+- rule: rule_65080868113633ded84cea02
+  steps:
+  - intent: intent_65080868113633ded84cea02
+  - action: utter_65080868113633ded84cea02
+
+- rule: rule_65080868113633ded84cea03
+  steps:
+  - intent: intent_65080868113633ded84cea03
+  - action: utter_65080868113633ded84cea03
+
+- rule: rule_65080868113633ded84cea04
+  steps:
+  - intent: intent_65080868113633ded84cea04
+  - action: utter_65080868113633ded84cea04
+
+- rule: rule_65080868113633ded84cea05
+  steps:
+  - intent: intent_65080868113633ded84cea05
+  - action: utter_65080868113633ded84cea05
+
+- rule: rule_65080868113633ded84cea06
+  steps:
+  - intent: intent_65080868113633ded84cea06
+  - action: utter_65080868113633ded84cea06
+
+- rule: rule_65080868113633ded84cea07
+  steps:
+  - intent: intent_65080868113633ded84cea07
+  - action: utter_65080868113633ded84cea07
+
+- rule: rule_65080868113633ded84cea08
+  steps:
+  - intent: intent_65080868113633ded84cea08
+  - action: utter_65080868113633ded84cea08
+
+- rule: rule_65080868113633ded84cea09
+  steps:
+  - intent: intent_65080868113633ded84cea09
+  - action: utter_65080868113633ded84cea09
+
+- rule: rule_65080868113633ded84cea0a
+  steps:
+  - intent: intent_65080868113633ded84cea0a
+  - action: utter_65080868113633ded84cea0a
+
+- rule: rule_65080868113633ded84cea0b
+  steps:
+  - intent: intent_65080868113633ded84cea0b
+  - action: utter_65080868113633ded84cea0b
+
+- rule: rule_65080868113633ded84cea0c
+  steps:
+  - intent: intent_65080868113633ded84cea0c
+  - action: utter_65080868113633ded84cea0c
+
+- rule: rule_65080868113633ded84cea0d
+  steps:
+  - intent: intent_65080868113633ded84cea0d
+  - action: utter_65080868113633ded84cea0d
+
+- rule: rule_65080868113633ded84cea0e
+  steps:
+  - intent: intent_65080868113633ded84cea0e
+  - action: utter_65080868113633ded84cea0e
+
+- rule: rule_65080868113633ded84cea0f
+  steps:
+  - intent: intent_65080868113633ded84cea0f
+  - action: utter_65080868113633ded84cea0f
+
+- rule: rule_65080868113633ded84cea10
+  steps:
+  - intent: intent_65080868113633ded84cea10
+  - action: utter_65080868113633ded84cea10
+
+- rule: rule_65080868113633ded84cea11
+  steps:
+  - intent: intent_65080868113633ded84cea11
+  - action: utter_65080868113633ded84cea11
+
+- rule: rule_65080868113633ded84cea12
+  steps:
+  - intent: intent_65080868113633ded84cea12
+  - action: utter_65080868113633ded84cea12
+
+- rule: rule_65080868113633ded84cea13
+  steps:
+  - intent: intent_65080868113633ded84cea13
+  - action: utter_65080868113633ded84cea13
+
+- rule: rule_65080868113633ded84cea14
+  steps:
+  - intent: intent_65080868113633ded84cea14
+  - action: utter_65080868113633ded84cea14
+
+- rule: rule_65080868113633ded84cea15
+  steps:
+  - intent: intent_65080868113633ded84cea15
+  - action: utter_65080868113633ded84cea15
+
+- rule: rule_65080868113633ded84cea16
+  steps:
+  - intent: intent_65080868113633ded84cea16
+  - action: utter_65080868113633ded84cea16
+
+- rule: rule_65080868113633ded84cea17
+  steps:
+  - intent: intent_65080868113633ded84cea17
+  - action: utter_65080868113633ded84cea17
+
+- rule: rule_65080868113633ded84cea18
+  steps:
+  - intent: intent_65080868113633ded84cea18
+  - action: utter_65080868113633ded84cea18
+
+- rule: rule_65080868113633ded84cea19
+  steps:
+  - intent: intent_65080868113633ded84cea19
+  - action: utter_65080868113633ded84cea19
+
+- rule: rule_65080868113633ded84cea1a
+  steps:
+  - intent: intent_65080868113633ded84cea1a
+  - action: utter_65080868113633ded84cea1a
+
+- rule: rule_65080868113633ded84cea1b
+  steps:
+  - intent: intent_65080868113633ded84cea1b
+  - action: utter_65080868113633ded84cea1b
+
+- rule: rule_65080868113633ded84cea1c
+  steps:
+  - intent: intent_65080868113633ded84cea1c
+  - action: utter_65080868113633ded84cea1c
+
+- rule: rule_65080868113633ded84cea1d
+  steps:
+  - intent: intent_65080868113633ded84cea1d
+  - action: utter_65080868113633ded84cea1d
+
+- rule: rule_65080868113633ded84cea1e
+  steps:
+  - intent: intent_65080868113633ded84cea1e
+  - action: utter_65080868113633ded84cea1e
+
+- rule: rule_65080868113633ded84cea1f
+  steps:
+  - intent: intent_65080868113633ded84cea1f
+  - action: utter_65080868113633ded84cea1f
+
+- rule: rule_65080868113633ded84cea20
+  steps:
+  - intent: intent_65080868113633ded84cea20
+  - action: utter_65080868113633ded84cea20
+
+- rule: rule_65080868113633ded84cea21
+  steps:
+  - intent: intent_65080868113633ded84cea21
+  - action: utter_65080868113633ded84cea21
+
+- rule: rule_65080868113633ded84cea22
+  steps:
+  - intent: intent_65080868113633ded84cea22
+  - action: utter_65080868113633ded84cea22
+
+- rule: rule_65080868113633ded84cea23
+  steps:
+  - intent: intent_65080868113633ded84cea23
+  - action: utter_65080868113633ded84cea23
+
+- rule: rule_65080868113633ded84cea24
+  steps:
+  - intent: intent_65080868113633ded84cea24
+  - action: utter_65080868113633ded84cea24
+
+- rule: rule_65080868113633ded84cea25
+  steps:
+  - intent: intent_65080868113633ded84cea25
+  - action: utter_65080868113633ded84cea25
+
+- rule: rule_65080868113633ded84cea26
+  steps:
+  - intent: intent_65080868113633ded84cea26
+  - action: utter_65080868113633ded84cea26
+
+- rule: rule_65080868113633ded84cea27
+  steps:
+  - intent: intent_65080868113633ded84cea27
+  - action: utter_65080868113633ded84cea27
+
+- rule: rule_65080868113633ded84cea28
+  steps:
+  - intent: intent_65080868113633ded84cea28
+  - action: utter_65080868113633ded84cea28
+
+- rule: rule_65080868113633ded84cea29
+  steps:
+  - intent: intent_65080868113633ded84cea29
+  - action: utter_65080868113633ded84cea29
+
+- rule: rule_65080868113633ded84cea2a
+  steps:
+  - intent: intent_65080868113633ded84cea2a
+  - action: utter_65080868113633ded84cea2a
+
+- rule: rule_65080868113633ded84cea2b
+  steps:
+  - intent: intent_65080868113633ded84cea2b
+  - action: utter_65080868113633ded84cea2b
+
+- rule: rule_65080868113633ded84cea2c
+  steps:
+  - intent: intent_65080868113633ded84cea2c
+  - action: utter_65080868113633ded84cea2c
+
+- rule: rule_65080868113633ded84cea2d
+  steps:
+  - intent: intent_65080868113633ded84cea2d
+  - action: utter_65080868113633ded84cea2d
+
+- rule: rule_65080868113633ded84cea2e
+  steps:
+  - intent: intent_65080868113633ded84cea2e
+  - action: utter_65080868113633ded84cea2e
+
+- rule: rule_65080868113633ded84cea2f
+  steps:
+  - intent: intent_65080868113633ded84cea2f
+  - action: utter_65080868113633ded84cea2f
+
+- rule: rule_65080868113633ded84cea30
+  steps:
+  - intent: intent_65080868113633ded84cea30
+  - action: utter_65080868113633ded84cea30
+
+- rule: rule_65080868113633ded84cea31
+  steps:
+  - intent: intent_65080868113633ded84cea31
+  - action: utter_65080868113633ded84cea31
+
+- rule: rule_65080868113633ded84cea32
+  steps:
+  - intent: intent_65080868113633ded84cea32
+  - action: utter_65080868113633ded84cea32
+
+- rule: rule_65080868113633ded84cea33
+  steps:
+  - intent: intent_65080868113633ded84cea33
+  - action: utter_65080868113633ded84cea33

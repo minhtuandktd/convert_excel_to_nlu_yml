@@ -1,8 +1,17 @@
 
   - rule: rule 1
     steps:
-      - intent: intent trào ngược bao tử
+      - action: trào ngược bao tử
       - action: utter trào ngược bao tử
   - rule: rule 2
     steps:
-      - action: nan
+      - intent: intent biểu hiện có thai
+      - action: utter biểu hiện có thai
+  - rule: rule 3
+    steps:
+      - intent: intent biểu hiện chuyển dạ 
+      - action: utter biểu hiện chuyển dạ 
+  - rule: rule 4
+    steps:
+      - intent: intent biểu hiện sắp sinh
+      - action: utter biểu hiện sắp sinh

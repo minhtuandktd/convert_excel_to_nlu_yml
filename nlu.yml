@@ -1,0 +1,397 @@
+version: '3.1' 
+nlu: 
+
+- intent: xin_chao
+  examples: |
+    - Xin chào
+    - Hello
+    - Chào bạn
+    - Hi
+    
+- intent: cam_on
+  examples: |
+    - Cảm ơn bạn
+    - Thank you
+
+    
+- intent: intent_65080868113633ded84ce9e8
+  examples: |
+    - KSK01 in không ra dữ liệu NB
+    - KSK01 in không ra dữ liệu NB
+
+- intent: intent_65080868113633ded84ce9e9
+  examples: |
+    - Màn hình khám bệnh không hiển thị các chuyên khoa khám
+    - Màn hình khám bệnh không hiển thị chuyên khoa khám
+
+- intent: intent_65080868113633ded84ce9ea
+  examples: |
+    - Không tìm thấy NB để tiếp nhận lấy mẫu
+    - Không thể tìm thấy NB để tiếp nhận lấy mẫu
+
+- intent: intent_65080868113633ded84ce9eb
+  examples: |
+    - Không thấy id bản ghi dịch vụ để trả kết quả
+    - Không thấy id của bản ghi dịch vụ để trả kết quả 
+
+- intent: intent_65080868113633ded84ce9ec
+  examples: |
+    - Trường hợp LIS trả thiếu KQ cho HIS với dịch vụ FOBT
+    - LIS trả thiếu KQ cho HIS với dịch vụ FOBT
+
+- intent: intent_65080868113633ded84ce9ed
+  examples: |
+    - Trả thiếu kết quả cho NB không phải FOBT
+    - Trả thiếu cho NB không phải FOBT
+
+- intent: intent_65080868113633ded84ce9ee
+  examples: |
+    - Khi tiếp nhận từ màn hình Tiếp nhận --> không đẩy NB sang PACS
+    - Tiếp nhận từ màn hình Tiếp nhận --> không đẩy NB sang PACS
+
+- intent: intent_65080868113633ded84ce9ef
+  examples: |
+    - Trường hợp trả kết quả từ PACS - HIS --> hệ thống PACS báo: Finalize trên PACS rồi nhưng HIS chưa nhận được kết quả
+    - Trả kết quả từ PACS - HIS --> hệ thống PACS báo: Finalize trên PACS rồi nhưng HIS chưa nhận được kết quả
+
+- intent: intent_65080868113633ded84ce9f0
+  examples: |
+    - Trường hợp trả kết quả từ PACS - HIS --> hệ thống báo lỗi: dịch vụ ở trạng thái chờ hoàn/ đã hoàn
+    - Trả kết quả từ PACS - HIS --> hệ thống báo lỗi: dịch vụ ở trạng thái chờ hoàn/ đã hoàn
+
+- intent: intent_65080868113633ded84ce9f1
+  examples: |
+    - Có NB Không in ra giấy ksk form A3
+    - Có NB Không in ra giấy ksk form A3
+
+- intent: intent_65080868113633ded84ce9f2
+  examples: |
+    - Sửa đổi thông tin thanh toán dịch vụ ngoài hợp đồng từ Thanh toán theo hợp đồng thành Tự thanh toán và đã tồn tại dịch vụ chỉ định cho NB
+    - Đổi thông tin thanh toán dịch vụ ngoài hợp đồng từ Thanh toán theo hợp đồng thành Tự thanh toán và đã tồn tại dịch vụ chỉ định cho NB
+
+- intent: intent_65080868113633ded84ce9f3
+  examples: |
+    - Với khách được hẹn khám định kỳ (không phải khách chưa sử dụng hết dịch vụ trong gói khám) --> muốn kết quả hiển thị theo từng ngày khám
+    - Với khách được hẹn khám định kỳ (không phải khách chưa sử dụng hết dịch vụ trong gói khám) --> muốn kết quả hiển thị theo từng ngày khám
+
+- intent: intent_65080868113633ded84ce9f4
+  examples: |
+    - Không tìm thấy mẫu kết quả chẩn đoán hình ảnh, thăm dò chức năng để chọn mẫu cho khách hàng trong màn hình Tiếp nhận
+    - Không tìm thấy mẫu kết quả chẩn đoán hình ảnh, thăm dò chức năng để chọn mẫu cho khách hàng trong màn hình Tiếp nhận
+
+- intent: intent_65080868113633ded84ce9f5
+  examples: |
+    - Vào hệ thống báo lỗi sai mật khẩu/ không nhớ mật khẩu
+    - Vào hệ thống báo lỗi sai mật khẩu/ không nhớ mật khẩu
+
+- intent: intent_65080868113633ded84ce9f6
+  examples: |
+    - Tool hiện tại đang báo lỗi do không có quyền truy cập vào ổ C-> không thể cài đặt lại tool trong ổ C
+    - Tool hiện tại đang báo lỗi do không có quyền truy cập vào ổ C-> không thể cài đặt lại tool trong ổ C
+
+- intent: intent_65080868113633ded84ce9f7
+  examples: |
+    - Màn hình LCD sau khi đổi thông tin vẫn  không thay đổi được
+    - Màn hình LCD sau khi đổi thông tin vẫn  không thay đổi được
+
+- intent: intent_65080868113633ded84ce9f8
+  examples: |
+    - Màn hình khám bệnh trắng xóa,không hiển thị gì cả
+    - Màn hình khám bệnh trắng xóa,không hiển thị gì cả
+
+- intent: intent_65080868113633ded84ce9f9
+  examples: |
+    - Bấm in "Phiếu nhập viện" => báo không có bản ghi ID. Là do hệ thống không lưu được Khoa nhập viện của NB
+    - Bấm in "Phiếu nhập viện" => báo không có bản ghi ID. Là do hệ thống không lưu được Khoa nhập viện của NB
+
+- intent: intent_65080868113633ded84ce9fa
+  examples: |
+    - Tình huống người bệnh khi khám xong mà không kết thúc khám được nguyên nhân là do có 1 hoặc nhiều dịch vụ chưa hoàn thành mà lại đi thanh toán và xuất hóa đơn
+    - Tình huống người bệnh khi khám xong mà không kết thúc khám được nguyên nhân là do có 1 hoặc nhiều dịch vụ chưa hoàn thành mà lại đi thanh toán và xuất hóa đơn
+
+- intent: intent_65080868113633ded84ce9fb
+  examples: |
+    - Không lưu được chẩn đoán dẫn đến không chỉ định được DVKT || Không kê đơn thuốc được
+    - Không lưu được chẩn đoán dẫn đến không chỉ định được DVKT || Không kê đơn thuốc được
+
+- intent: intent_65080868113633ded84ce9fc
+  examples: |
+    - Khi chuyển Phòng thực hiện, ví dụ NB01 được chỉ định khám S8, tuy nhiên bác sĩ S8 bận, chuyển NB sang khám S5. Lúc này bác sĩ thực hiện vào Tiện ích => chọn Đổi phòng thực hiện. Vì vậy dẫn tới việc gọi số bị nhảy sai. 
+    - Khi chuyển Phòng thực hiện, ví dụ NB01 được chỉ định khám S8, tuy nhiên bác sĩ S8 bận, chuyển NB sang khám S5. Lúc này bác sĩ thực hiện vào Tiện ích => chọn Đổi phòng thực hiện. Vì vậy dẫn tới việc gọi số bị nhảy sai. 
+    - fhagh
+    - agasfd
+
+- intent: intent_65080868113633ded84ce9fd
+  examples: |
+    - Trường hợp tick "Không tính tiền" tại màn hình quản lý tiếp đón bấm lưu rồi nhưng không lưu được.
+    - Trường hợp tick "Không tính tiền" tại màn hình quản lý tiếp đón bấm lưu rồi nhưng không lưu được.
+
+- intent: intent_65080868113633ded84ce9fe
+  examples: |
+    - Đổi phòng khám cho NB đã nhập khoa nội trú ( chưa lập bệnh án)
+    - Đổi phòng khám cho NB đã nhập khoa nội trú ( chưa lập bệnh án)
+
+- intent: intent_65080868113633ded84ce9ff
+  examples: |
+    - In biên bản hội chẩn trong Module khám bệnh
+    - In biên bản hội chẩn trong Module khám bệnh
+
+- intent: intent_65080868113633ded84cea00
+  examples: |
+    - Kiểm tra máy in phòng V10 (Máy in gốc đang bị ofline nên phải chỉnh qua mấy in phụ(Coppy) để cho lệnh in in qua máy đó)
+    - Kiểm tra máy in phòng V10 (Máy in gốc đang bị ofline nên phải chỉnh qua mấy in phụ(Coppy) để cho lệnh in in qua máy đó)
+
+- intent: intent_65080868113633ded84cea01
+  examples: |
+    - Chỉ định bộ DVKT báo lỗi thiếu bản ghi ID các DV trong gói
+    - Chỉ định bộ DVKT báo lỗi thiếu bản ghi ID các DV trong gói
+
+- intent: intent_65080868113633ded84cea02
+  examples: |
+    - Chỉnh sửa số ngày cho đơn thuốc của 1 thuốc đơn thuốc
+    - Chỉnh sửa số ngày cho đơn thuốc của 1 thuốc đơn thuốc
+
+- intent: intent_65080868113633ded84cea03
+  examples: |
+    - Đóng hồ sơ không được,báo là chưa có hướng điều trị
+    - Đóng hồ sơ không được,báo là chưa có hướng điều trị
+
+- intent: intent_65080868113633ded84cea04
+  examples: |
+    - Không bỏ qua NB được. Trường hợp NB đăng ký khám qua app BVNDTP (Nhận biết NB Đk qua app là giờ đăng ký thường là lúc 0h) mà không thực hiện khám
+    - Không bỏ qua NB được. Trường hợp NB đăng ký khám qua app BVNDTP (Nhận biết NB Đk qua app là giờ đăng ký thường là lúc 0h) mà không thực hiện khám
+
+- intent: intent_65080868113633ded84cea05
+  examples: |
+    - Không xóa được chỉ định XN, phần mềm báo lỗi "Không xóa được DV đã ở trạng thái Chờ lấy mẫu"
+    - Không xóa được chỉ định XN, phần mềm báo lỗi "Không xóa được DV đã ở trạng thái Chờ lấy mẫu"
+
+- intent: intent_65080868113633ded84cea06
+  examples: |
+    - Không lưu được phiếu Chỉ định nhập viện, phần mềm báo "Thiếu bản ghi ID"
+    - Không lưu được phiếu Chỉ định nhập viện, phần mềm báo "Thiếu bản ghi ID"
+
+- intent: intent_65080868113633ded84cea07
+  examples: |
+    - Đối với dịch vụ Siêu Âm Dopler Tim,Van tim. Không tìm thấy dịch vụ bệnh nhân trong phần mềm đọc kết quả (PACS)
+    - Đối với dịch vụ Siêu Âm Dopler Tim,Van tim. Không tìm thấy dịch vụ bệnh nhân trong phần mềm đọc kết quả (PACS)
+
+- intent: intent_65080868113633ded84cea08
+  examples: |
+    - Đối với trường hợp không thể hủy tiếp nhận dịch vụ X-quang ( Lý do : Vì hiện tại các dịch vụ X-quang đang mặc định tự kê Vật tư Phim Laser nên không thể hủy )
+    - Đối với trường hợp không thể hủy tiếp nhận dịch vụ X-quang ( Lý do : Vì hiện tại các dịch vụ X-quang đang mặc định tự kê Vật tư Phim Laser nên không thể hủy )
+
+- intent: intent_65080868113633ded84cea09
+  examples: |
+    - In bảng kê chi phí bị tách ra làm 2 bảng,1 bảng 80% và 1 bảng 100%
+    - In bảng kê chi phí bị tách ra làm 2 bảng,1 bảng 80% và 1 bảng 100%
+
+- intent: intent_65080868113633ded84cea0a
+  examples: |
+    - Quầy tiếp đón Tiêu Chuẩn lúc 16h chiều sẽ chuyển đổi từ loại đối tượng Tiêu Chuẩn sang Tăng Cường
+    - Quầy tiếp đón Tiêu Chuẩn lúc 16h chiều sẽ chuyển đổi từ loại đối tượng Tiêu Chuẩn sang Tăng Cường
+
+- intent: intent_65080868113633ded84cea0b
+  examples: |
+    - Đối với in phiếu khám bị chạy ra hàng giấy trắng dài do dư các lệnh in
+    - Đối với in phiếu khám bị chạy ra hàng giấy trắng dài do dư các lệnh in
+
+- intent: intent_65080868113633ded84cea0c
+  examples: |
+    - In bảng kê bảo hiểm y tế ra 1 phiếu thu 100% với 1 phiếu thu 80%
+    - In bảng kê bảo hiểm y tế ra 1 phiếu thu 100% với 1 phiếu thu 80%
+
+- intent: intent_65080868113633ded84cea0d
+  examples: |
+    - Hai dịch vụ khám nội hai chuyên khoa khác nhau
+    - Hai dịch vụ khám nội hai chuyên khoa khác nhau
+
+- intent: intent_65080868113633ded84cea0e
+  examples: |
+    - In bảng kê có chữ kiểm tra
+    - In bảng kê có chữ kiểm tra
+
+- intent: intent_65080868113633ded84cea0f
+  examples: |
+    - Tình huống chọn đối tượng tiêu chuẩn muốn đổi thành BHYT và đổi các loại dịch  vụ thành dịch vụ thu phí/BHYT
+    - Tình huống chọn đối tượng tiêu chuẩn muốn đổi thành BHYT và đổi các loại dịch  vụ thành dịch vụ thu phí/BHYT
+
+- intent: intent_65080868113633ded84cea10
+  examples: |
+    - Bảng kê bảo hiểm y tế hiện công khám và dịch vụ của mã hồ sơ => do có 1 phiếu thu chưa thanh toán
+    - Bảng kê bảo hiểm y tế hiện công khám và dịch vụ của mã hồ sơ => do có 1 phiếu thu chưa thanh toán
+
+- intent: intent_65080868113633ded84cea11
+  examples: |
+    - Hỗ trợ kiểm tra bảng kê chi phí BHYT
+    - Hỗ trợ kiểm tra bảng kê chi phí BHYT
+
+- intent: intent_65080868113633ded84cea12
+  examples: |
+    - Hướng dẫn người dùng chuyển lại đối tượng BHYT.
+    - Hướng dẫn người dùng chuyển lại đối tượng BHYT.
+
+- intent: intent_65080868113633ded84cea13
+  examples: |
+    - Đối với trường hợp đối tượng này nhưng lại dính công khám của đối tượng khác (F5 nhiều lần không được)
+    - Đối với trường hợp đối tượng này nhưng lại dính công khám của đối tượng khác (F5 nhiều lần không được)
+
+- intent: intent_65080868113633ded84cea14
+  examples: |
+    - Tiếp đón đối với đối tượng từ khu khám bệnh sang
+    - Tiếp đón đối với đối tượng từ khu khám bệnh sang
+
+- intent: intent_65080868113633ded84cea15
+  examples: |
+    - Xử lý khi muốn đổi phòng khám nhưng đang ở trạng thái " Đang khám"
+    - Xử lý khi muốn đổi phòng khám nhưng đang ở trạng thái " Đang khám"
+
+- intent: intent_65080868113633ded84cea16
+  examples: |
+    - Tiếp đón NB là đối tượng CBNV
+    - Tiếp đón NB là đối tượng CBNV
+
+- intent: intent_65080868113633ded84cea17
+  examples: |
+    - Xóa người trong danh sách nghỉ hưởng
+    - Xóa người trong danh sách nghỉ hưởng
+
+- intent: intent_65080868113633ded84cea18
+  examples: |
+    - Trường hợp: NB có 2 dòng thu tạm ứng. 1 người khác không biết mà hoàn tiền tạm ứng cho NB.
+    - Trường hợp: NB có 2 dòng thu tạm ứng. 1 người khác không biết mà hoàn tiền tạm ứng cho NB.
+
+- intent: intent_65080868113633ded84cea19
+  examples: |
+    - Đối với các NB chỉ định sai số ngày giường hoặc muốn xóa, chỉ cần sửa lại số ngày giường lúc ra viện.
+    - Đối với các NB chỉ định sai số ngày giường hoặc muốn xóa, chỉ cần sửa lại số ngày giường lúc ra viện.
+
+- intent: intent_65080868113633ded84cea1a
+  examples: |
+    - Đối với những dịch truyền được bác sĩ kê nhưng không thể link qua phiếu theo dõi dịch truyền, chỉ cần chọn lại đường dùng của dịch.
+    - Đối với những dịch truyền được bác sĩ kê nhưng không thể link qua phiếu theo dõi dịch truyền, chỉ cần chọn lại đường dùng của dịch.
+
+- intent: intent_65080868113633ded84cea1b
+  examples: |
+    - Khoa phẩu thuật gây mê hồi sức tình huống: NB được chỉ đinh máu (huyết tương tươi đông lạnh) số lượng 8 túi, ngày 18/05 in bảng kê số lượng là 8 túi. nhưng ngày 08/06/2023 in bảng kê lại ra còn 7 túi máu => tài khoản mai.dang đã xóa đi mất một túi (ngày 19/05/2023) nên hôm nay NB xuất viện in bảng kê chi phí BHYT (7 túi) => cách giải quyết nhờ BS chỉ định thêm máu cho NB-> ngân hàng máu sẽ duyệt. tình huống 2: NB được Khoa NGoại tổng hợp chỉ định phẩu thuật thủ thuật(phẩu thuật co gân Achille)tại phòng mỗ khoa phẩu thuật gây mê hồi sức nhưng trong quá trình làm phẩu thuật NB có phát sinh thêm dịch vụ phẩu thuật dính khớp khuỷa nhưng bác sĩ ko sửa được tỉ lệ TT ko chỉnh sửa đc BS muốn sửa PHẩu thuật dính khuỷa tỉ lệ 50%. vì dịch vụ phẩu thuật dính khớp khuỷa BS chỉ định trong tờ điều trị nên ko sửa lại đc tỉ lệ như mong muốn của BS đc => cách giải quyết nhờ BS vào màn hình phẩu thuật thủ thuật hủy tiếp nhận (xóa luôn thuốc, vật tư ). -> xóa dịch vụ ngoài tờ điều trị -> BS vào màn hình phẩu thuật thủ thuật -> chỉ định dịch vụ là và sửa tỉ lệ TT . tình huống 3: DĐ trường nhập vật tư hình thức là nhập dự trù nhưng khi lưu và gửi duyệt thì nhập thiếu VT, gọi xuống Khoa VT bệnh viện nói nhã ra để nhập thêm vật tư nhưng khi thao tác số phiếu đã nhập trươc đó đã mất, vì có người đã xóa phiếu => cách giải quyết nhờ điều dưỡng trường thao tác nhập vt lại (hình thưc nhập là nhập dư trù)
+    - Khoa phẩu thuật gây mê hồi sức tình huống: NB được chỉ đinh máu (huyết tương tươi đông lạnh) số lượng 8 túi, ngày 18/05 in bảng kê số lượng là 8 túi. nhưng ngày 08/06/2023 in bảng kê lại ra còn 7 túi máu => tài khoản mai.dang đã xóa đi mất một túi (ngày 19/05/2023) nên hôm nay NB xuất viện in bảng kê chi phí BHYT (7 túi) => cách giải quyết nhờ BS chỉ định thêm máu cho NB-> ngân hàng máu sẽ duyệt. tình huống 2: NB được Khoa NGoại tổng hợp chỉ định phẩu thuật thủ thuật(phẩu thuật co gân Achille)tại phòng mỗ khoa phẩu thuật gây mê hồi sức nhưng trong quá trình làm phẩu thuật NB có phát sinh thêm dịch vụ phẩu thuật dính khớp khuỷa nhưng bác sĩ ko sửa được tỉ lệ TT ko chỉnh sửa đc BS muốn sửa PHẩu thuật dính khuỷa tỉ lệ 50%. vì dịch vụ phẩu thuật dính khớp khuỷa BS chỉ định trong tờ điều trị nên ko sửa lại đc tỉ lệ như mong muốn của BS đc => cách giải quyết nhờ BS vào màn hình phẩu thuật thủ thuật hủy tiếp nhận (xóa luôn thuốc, vật tư ). -> xóa dịch vụ ngoài tờ điều trị -> BS vào màn hình phẩu thuật thủ thuật -> chỉ định dịch vụ là và sửa tỉ lệ TT . tình huống 3: DĐ trường nhập vật tư hình thức là nhập dự trù nhưng khi lưu và gửi duyệt thì nhập thiếu VT, gọi xuống Khoa VT bệnh viện nói nhã ra để nhập thêm vật tư nhưng khi thao tác số phiếu đã nhập trươc đó đã mất, vì có người đã xóa phiếu => cách giải quyết nhờ điều dưỡng trường thao tác nhập vt lại (hình thưc nhập là nhập dư trù)
+
+- intent: intent_65080868113633ded84cea1c
+  examples: |
+    - Tổng số ngày điều trị và số lượng ngày giường khác nhau và sai thực tế
+    - Tổng số ngày điều trị và số lượng ngày giường khác nhau và sai thực tế
+
+- intent: intent_65080868113633ded84cea1d
+  examples: |
+    - Không chỉ đinh được DV - Thông báo "thời gian chỉ định DV phải lớn hơn thời gian vào viện và nhỏ hơn thời gian ra vện
+    - Không chỉ đinh được DV - Thông báo "thời gian chỉ định DV phải lớn hơn thời gian vào viện và nhỏ hơn thời gian ra vện
+
+- intent: intent_65080868113633ded84cea1e
+  examples: |
+    - Người bệnh không xuất viện được
+    - Người bệnh không xuất viện được
+
+- intent: intent_65080868113633ded84cea1f
+  examples: |
+    - Cho NB chuyển viện
+    - Cho NB chuyển viện
+
+- intent: intent_65080868113633ded84cea20
+  examples: |
+    - Theo quy trình người nhà phải ký cam kết thực hiện PTTT - BS mới cho chỉ định PTTT
+    - Theo quy trình người nhà phải ký cam kết thực hiện PTTT - BS mới cho chỉ định PTTT
+
+- intent: intent_65080868113633ded84cea21
+  examples: |
+    - Bs muốn nhập thêm chỉ định khám ngoại trú cho người bệnh đã nhập viện
+    - Bs muốn nhập thêm chỉ định khám ngoại trú cho người bệnh đã nhập viện
+
+- intent: intent_65080868113633ded84cea22
+  examples: |
+    - BS chỉ định dịch vụ tực hiện tại khoa nhưng phân sai phòng thực hiện dẫn tới không tìm thấy tên NB trong màn mình thực hiện dịch vụ
+    - BS chỉ định dịch vụ tực hiện tại khoa nhưng phân sai phòng thực hiện dẫn tới không tìm thấy tên NB trong màn mình thực hiện dịch vụ
+
+- intent: intent_65080868113633ded84cea23
+  examples: |
+    - Tờ điều trị trong hồ sơ bản mềm khác diễn biến tờ điều trị trên HIS
+    - Tờ điều trị trong hồ sơ bản mềm khác diễn biến tờ điều trị trên HIS
+
+- intent: intent_65080868113633ded84cea24
+  examples: |
+    - Tạo phiếu lĩnh thuốc nội trú theo Phòng thiếu NB trong phiếu lĩnh
+    - Tạo phiếu lĩnh thuốc nội trú theo Phòng thiếu NB trong phiếu lĩnh
+
+- intent: intent_65080868113633ded84cea25
+  examples: |
+    - Hỗ trợ kê đơn thuốc(Bệnh viện mình thường hay có cái kiểu cuối tuần là bắt đầu lĩnh thuốc cho mấy cái ngày sau luôn,nên là người ta tạo sẵn tờ điều trị cho mốc thời gian là ngày 10 ngày 11 ngày 12 nhưng mà trong lúc tạo tờ điều trị đó thì mốc thời gian của nó vẫn là ngày 08/06(gọi là khoa tim mach 1),lúc này người ta đã thêm thuốc rồi lĩnh thuốc rồi thì lòi ra thằng này có vấn đề gì đấy dẫn đến việc nó vào chuyển xuống khoa làm việc khác,lúc mà làm xong thì chuyển lên lại khoa tim mạch vào ngày 9/6(gọi là khoa tim mạch 2) thì dẫn đến việc khoa tim mạch 2 không có kê được thêm thuốc cho khoa tim mạch 1
+    - Hỗ trợ kê đơn thuốc(Bệnh viện mình thường hay có cái kiểu cuối tuần là bắt đầu lĩnh thuốc cho mấy cái ngày sau luôn,nên là người ta tạo sẵn tờ điều trị cho mốc thời gian là ngày 10 ngày 11 ngày 12 nhưng mà trong lúc tạo tờ điều trị đó thì mốc thời gian của nó vẫn là ngày 08/06(gọi là khoa tim mach 1),lúc này người ta đã thêm thuốc rồi lĩnh thuốc rồi thì lòi ra thằng này có vấn đề gì đấy dẫn đến việc nó vào chuyển xuống khoa làm việc khác,lúc mà làm xong thì chuyển lên lại khoa tim mạch vào ngày 9/6(gọi là khoa tim mạch 2) thì dẫn đến việc khoa tim mạch 2 không có kê được thêm thuốc cho khoa tim mạch 1
+
+- intent: intent_65080868113633ded84cea26
+  examples: |
+    - NB đã ra viện, đang tại quầy Thu ngân lúc 9h30 - Tờ điều trị có thời gian 9h54 --> Thời gian ra viện phải sau thời gian của tờ điều trị là 9h55 thì mới cho người bệnh ra viện được --> Không thanh toán được vì thời gian ra viện là tương lai so với thời gian hiện tại --> NB phải đợi tới lúc sau 9h55 mới thanh toán được
+    - NB đã ra viện, đang tại quầy Thu ngân lúc 9h30 - Tờ điều trị có thời gian 9h54 --> Thời gian ra viện phải sau thời gian của tờ điều trị là 9h55 thì mới cho người bệnh ra viện được --> Không thanh toán được vì thời gian ra viện là tương lai so với thời gian hiện tại --> NB phải đợi tới lúc sau 9h55 mới thanh toán được
+
+- intent: intent_65080868113633ded84cea27
+  examples: |
+    - Sửa thông tin, bổ sung thẻ bảo hiểm báo hết hạn vì tiếp đón nhập sai tên NB
+    - Sửa thông tin, bổ sung thẻ bảo hiểm báo hết hạn vì tiếp đón nhập sai tên NB
+
+- intent: intent_65080868113633ded84cea28
+  examples: |
+    - Không điều chỉnh được số lượng của suất ăn đã tạo phiếu lĩnh, chưa gửi duyệt
+    - Không điều chỉnh được số lượng của suất ăn đã tạo phiếu lĩnh, chưa gửi duyệt
+
+- intent: intent_65080868113633ded84cea29
+  examples: |
+    - Khoa phẩu thuật gây mê hồi sức tình huống: NB được chỉ đinh máu (huyết tương tươi đông lạnh) số lượng 8 túi, ngày 18/05 in bảng kê số lượng là 8 túi. nhưng ngày 08/06/2023 in bảng kê lại ra còn 7 túi máu => tài khoản mai.dang đã xóa đi mất một túi (ngày 19/05/2023) nên hôm nay NB xuất viện in bảng kê chi phí BHYT (7 túi) => cách giải quyết nhờ BS chỉ định thêm máu cho NB-> ngân hàng máu sẽ duyệt. tình huống 2: NB được Khoa NGoại tổng hợp chỉ định phẩu thuật thủ thuật(phẩu thuật co gân Achille)tại phòng mỗ khoa phẩu thuật gây mê hồi sức nhưng trong quá trình làm phẩu thuật NB có phát sinh thêm dịch vụ phẩu thuật dính khớp khuỷa nhưng bác sĩ ko sửa được tỉ lệ TT ko chỉnh sửa đc BS muốn sửa PHẩu thuật dính khuỷa tỉ lệ 50%. vì dịch vụ phẩu thuật dính khớp khuỷa BS chỉ định trong tờ điều trị nên ko sửa lại đc tỉ lệ như mong muốn của BS đc => cách giải quyết nhờ BS vào màn hình phẩu thuật thủ thuật hủy tiếp nhận (xóa luôn thuốc, vật tư ). -> xóa dịch vụ ngoài tờ điều trị -> BS vào màn hình phẩu thuật thủ thuật -> chỉ định dịch vụ là và sửa tỉ lệ TT . tình huống 3: DĐ trường nhập vật tư hình thức là nhập dự trù nhưng khi lưu và gửi duyệt thì nhập thiếu VT, gọi xuống Khoa VT bệnh viện nói nhã ra để nhập thêm vật tư nhưng khi thao tác số phiếu đã nhập trươc đó đã mất, vì có người đã xóa phiếu => cách giải quyết nhờ điều dưỡng trường thao tác nhập vt lại (hình thưc nhập là nhập dư trù)
+    - Khoa phẩu thuật gây mê hồi sức tình huống: NB được chỉ đinh máu (huyết tương tươi đông lạnh) số lượng 8 túi, ngày 18/05 in bảng kê số lượng là 8 túi. nhưng ngày 08/06/2023 in bảng kê lại ra còn 7 túi máu => tài khoản mai.dang đã xóa đi mất một túi (ngày 19/05/2023) nên hôm nay NB xuất viện in bảng kê chi phí BHYT (7 túi) => cách giải quyết nhờ BS chỉ định thêm máu cho NB-> ngân hàng máu sẽ duyệt. tình huống 2: NB được Khoa NGoại tổng hợp chỉ định phẩu thuật thủ thuật(phẩu thuật co gân Achille)tại phòng mỗ khoa phẩu thuật gây mê hồi sức nhưng trong quá trình làm phẩu thuật NB có phát sinh thêm dịch vụ phẩu thuật dính khớp khuỷa nhưng bác sĩ ko sửa được tỉ lệ TT ko chỉnh sửa đc BS muốn sửa PHẩu thuật dính khuỷa tỉ lệ 50%. vì dịch vụ phẩu thuật dính khớp khuỷa BS chỉ định trong tờ điều trị nên ko sửa lại đc tỉ lệ như mong muốn của BS đc => cách giải quyết nhờ BS vào màn hình phẩu thuật thủ thuật hủy tiếp nhận (xóa luôn thuốc, vật tư ). -> xóa dịch vụ ngoài tờ điều trị -> BS vào màn hình phẩu thuật thủ thuật -> chỉ định dịch vụ là và sửa tỉ lệ TT . tình huống 3: DĐ trường nhập vật tư hình thức là nhập dự trù nhưng khi lưu và gửi duyệt thì nhập thiếu VT, gọi xuống Khoa VT bệnh viện nói nhã ra để nhập thêm vật tư nhưng khi thao tác số phiếu đã nhập trươc đó đã mất, vì có người đã xóa phiếu => cách giải quyết nhờ điều dưỡng trường thao tác nhập vt lại (hình thưc nhập là nhập dư trù)
+
+- intent: intent_65080868113633ded84cea2a
+  examples: |
+    - Cơ số tủ trực tồn kho thuốc khoa bị thiếu thuốc , NB đã thanh toán ra viện không cho làm chẵn để lĩnh bù tủ trực.
+    - Cơ số tủ trực tồn kho thuốc khoa bị thiếu thuốc , NB đã thanh toán ra viện không cho làm chẵn để lĩnh bù tủ trực.
+
+- intent: intent_65080868113633ded84cea2b
+  examples: |
+    - Không tạo được phiếu lĩnh bù tủ trực. Báo SL Thuốc kê lớn hơn SL tồn kho 
+    - Không tạo được phiếu lĩnh bù tủ trực. Báo SL Thuốc kê lớn hơn SL tồn kho 
+
+- intent: intent_65080868113633ded84cea2c
+  examples: |
+    - Không tìm thấy tên NB khi NB đã xuất viện để xem lại bảng kê
+    - Không tìm thấy tên NB khi NB đã xuất viện để xem lại bảng kê
+
+- intent: intent_65080868113633ded84cea2d
+  examples: |
+    - Thiếu thông tin ngày giường
+    - Thiếu thông tin ngày giường
+
+- intent: intent_65080868113633ded84cea2e
+  examples: |
+    - Phẫu thuật thất bại, cần in tờ tường trình nhưng không tính tiền cho NB
+    - Phẫu thuật thất bại, cần in tờ tường trình nhưng không tính tiền cho NB
+
+- intent: intent_65080868113633ded84cea2f
+  examples: |
+    - Không duyệt được  BHXH. Báo lỗi: Thiếu loại hình thanh toán
+    - Không duyệt được  BHXH. Báo lỗi: Thiếu loại hình thanh toán
+
+- intent: intent_65080868113633ded84cea30
+  examples: |
+    - Ấn vào xem báo cáo hiện thông báo đã chặn popup không tải lên báo cáo
+    - Ấn vào xem báo cáo hiện thông báo đã chặn popup không tải lên báo cáo
+
+- intent: intent_65080868113633ded84cea31
+  examples: |
+    - In nhanh không hoạt động
+    - In nhanh không hoạt động
+
+- intent: intent_65080868113633ded84cea32
+  examples: |
+    - Scan giấy tờ không load lên trên HIS
+    - Scan giấy tờ không load lên trên HIS
+
+- intent: intent_65080868113633ded84cea33
+  examples: |
+    - Sửa giá dịch vụ theo kết quả xét nghiệm
+    - Sửa giá dịch vụ theo kết quả xét nghiệm

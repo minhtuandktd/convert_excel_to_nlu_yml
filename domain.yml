@@ -1,0 +1,501 @@
+version: '3.1' 
+intents:
+- xin_chao 
+- cam_on
+
+- intent_65080868113633ded84ce9e8
+- intent_65080868113633ded84ce9e9
+- intent_65080868113633ded84ce9ea
+- intent_65080868113633ded84ce9eb
+- intent_65080868113633ded84ce9ec
+- intent_65080868113633ded84ce9ed
+- intent_65080868113633ded84ce9ee
+- intent_65080868113633ded84ce9ef
+- intent_65080868113633ded84ce9f0
+- intent_65080868113633ded84ce9f1
+- intent_65080868113633ded84ce9f2
+- intent_65080868113633ded84ce9f3
+- intent_65080868113633ded84ce9f4
+- intent_65080868113633ded84ce9f5
+- intent_65080868113633ded84ce9f6
+- intent_65080868113633ded84ce9f7
+- intent_65080868113633ded84ce9f8
+- intent_65080868113633ded84ce9f9
+- intent_65080868113633ded84ce9fa
+- intent_65080868113633ded84ce9fb
+- intent_65080868113633ded84ce9fc
+- intent_65080868113633ded84ce9fd
+- intent_65080868113633ded84ce9fe
+- intent_65080868113633ded84ce9ff
+- intent_65080868113633ded84cea00
+- intent_65080868113633ded84cea01
+- intent_65080868113633ded84cea02
+- intent_65080868113633ded84cea03
+- intent_65080868113633ded84cea04
+- intent_65080868113633ded84cea05
+- intent_65080868113633ded84cea06
+- intent_65080868113633ded84cea07
+- intent_65080868113633ded84cea08
+- intent_65080868113633ded84cea09
+- intent_65080868113633ded84cea0a
+- intent_65080868113633ded84cea0b
+- intent_65080868113633ded84cea0c
+- intent_65080868113633ded84cea0d
+- intent_65080868113633ded84cea0e
+- intent_65080868113633ded84cea0f
+- intent_65080868113633ded84cea10
+- intent_65080868113633ded84cea11
+- intent_65080868113633ded84cea12
+- intent_65080868113633ded84cea13
+- intent_65080868113633ded84cea14
+- intent_65080868113633ded84cea15
+- intent_65080868113633ded84cea16
+- intent_65080868113633ded84cea17
+- intent_65080868113633ded84cea18
+- intent_65080868113633ded84cea19
+- intent_65080868113633ded84cea1a
+- intent_65080868113633ded84cea1b
+- intent_65080868113633ded84cea1c
+- intent_65080868113633ded84cea1d
+- intent_65080868113633ded84cea1e
+- intent_65080868113633ded84cea1f
+- intent_65080868113633ded84cea20
+- intent_65080868113633ded84cea21
+- intent_65080868113633ded84cea22
+- intent_65080868113633ded84cea23
+- intent_65080868113633ded84cea24
+- intent_65080868113633ded84cea25
+- intent_65080868113633ded84cea26
+- intent_65080868113633ded84cea27
+- intent_65080868113633ded84cea28
+- intent_65080868113633ded84cea29
+- intent_65080868113633ded84cea2a
+- intent_65080868113633ded84cea2b
+- intent_65080868113633ded84cea2c
+- intent_65080868113633ded84cea2d
+- intent_65080868113633ded84cea2e
+- intent_65080868113633ded84cea2f
+- intent_65080868113633ded84cea30
+- intent_65080868113633ded84cea31
+- intent_65080868113633ded84cea32
+- intent_65080868113633ded84cea33
+
+
+responses:
+  utter_xin_chao:
+    - text: "Xin chào bạn."
+
+  utter_default:
+    - text: "Tôi xin lỗi, Tôi chưa có thông tin để trả lời bạn."
+
+  utter_65080868113633ded84ce9e8:
+    - text: "Bước 1: Xin tiêu chí in
+Bước 2: Hợp đồng in không ra NB thì vào màn hình danh sách người bệnh đã tiếp đón --> Tìm theo công ty xem công ty đó đã được Tiếp đón KSK hay chưa?
+'+ Nếu chưa thì không lên báo cáo KSK --> Cần báo người dùng tiếp nhận lại
++ Nếu rồi, vào màn hình Hồ sơ bệnh án check tiếp"
+
+  utter_65080868113633ded84ce9e9:
+    - text: "1/ Màn hình Danh sách NB đã tiếp đón: Kiểm tra xem NB đã có dịch vụ khám hay không? Nếu có thì kiểm tra trạng thái Tiếp đón KSK= Đã tiếp đón KSK hay chưa? --> Nếu chưa thì tiếp nhận. Nếu rồi set tới case bên dưới:
+2/ Kiểm tra tài khoản đã được gán các chuyên khoa theo mã giá trị trong các thiết lập chung có key Chuyen_khoa hay chưa?
+3/ Kiểm tra xem dịch vụ khám trong danh mục dịch vụ khám bệnh đã được gán các chuyên khoa KSK hay chưa"
+
+  utter_65080868113633ded84ce9ea:
+    - text: "1/ Xin thời gian GET chỉ định mà người dùng báo --> Kiểm tra thời gian thực hiện (thời gian thực hiện) của dịch vụ tại màn hình Hồ sơ bệnh án, nhấn icon con mắt để xem, xem đã thỏa mãn thời gian LIS GET chưa?
+(1.1) Nếu chưa thì báo lại thời gian đúng
+(1.2) Nếu rồi check tiếp tới case: danh mục dịch vụ đã được thiết lập đơn vị kết nối chưa? Nếu thiết lập rồi thì check tiếp Phòng thực hiện của dịch vụ có được thiết lập Ngoại viện= true hay False --> true thì mặc định k hiển thị (cần đổi lại thiết lập và tác động sửa phòng thực hiện để ăn theo thiết lập mới), fasle thì sẽ hiển thị bên LIS
++ Nếu đúng hết (1.1), (1.2) thì báo lại phía ISOFH check lại"
+
+  utter_65080868113633ded84ce9eb:
+    - text: "Xử lý: xin bản tin GET chỉ định của LIS và response trả về xem lúc đầu GET thì respone trả về sao
+Nguyên nhân chính: Do lúc GET chỉ định bên LIS trạng thái thanh toán dịch vụ của HIS= Chưa thanh toán --> người dùng có thể xóa chỉ định và chỉ định lại dịch vụ đó thì id bản ghi xét nghiệm đã bị thay đổi khi trả kết quả sẽ không tìm thấy để trả (ISOFH đã giải thích với phía PK)"
+
+  utter_65080868113633ded84ce9ec:
+    - text: "Nguyên nhân: do LIS set thiếu trạng thái dịch vụ nên bị trả thiếu
+Giải pháp: LIS map lại KQ trả
+Trạng thái: LIS đã hoàn thành xử lý"
+
+  utter_65080868113633ded84ce9ed:
+    - text: "Nguyên nhân: do cấu trúc bản tin có kí tự enter bên LIS convert lại nên bị ảnh hưởng tới rớt 1 số gói tin khi cập nhật kết quả sang HIS"
+
+  utter_65080868113633ded84ce9ee:
+    - text: "Giải pháp: màn hình Tiếp nhận --> tìm NB và nhấn button hủy tiếp nhận --> Tiếp nhận lại"
+
+  utter_65080868113633ded84ce9ef:
+    - text: "Xử lý: Phía PK trao đổi trên group chung: Mirai Clinic HIS-RIS-PACS để 2 bên HIS, PACS nắm được thông tin hỗ trợ
+Chi tiết: khi HIS, PACS nhận thông tin cần làm rõ:
+Với HIS: xin bản tin và reponse khi PACS trả kết quả thành công để check lại
+Với PACS: cung cấp bản tin,reposne kèm thời gian trả kết quả để HIS check log bên HIS
+Sau khi hoàn thành: báo lại kết quả cho phía PK"
+
+  utter_65080868113633ded84ce9f0:
+    - text: "Nguyên nhân: do người dùng bị tích nhầm icon Không thực hiện ở màn hình Hồ sơ bệnh án tab DVKT --> trạng thái thanh toán đổi từ Thường => Không thực hiện
+nên PACS trả kết quả sang HIS thì báo lỗi
+Xử lý: báo dev đổi lại trạng thái = Thường để trả KQ quả khách
+Hiện trạng: đã phân lại chỉ để quản trị hệ thống mới có quyền xác nhận Không thực hiện --> đã không còn lỗi trả KQ như thông báo với trường hợp trạng thái thanh toán= Không thực hiện"
+
+  utter_65080868113633ded84ce9f1:
+    - text: "Kiểm tra xem NB có dưới 18 tuổi không? vì người bệnh dưới 18 tuổi thì chỉ có 1 form A4.
+Còn trên 18 tuổi thì mới đc lựa chọn form in: a3 hoặc a4"
+
+  utter_65080868113633ded84ce9f2:
+    - text: "Các bước xử lý:
+1/ Vào danh sách hợp đồng --> tab Danh sách Người bệnh, vào chi tiết Nb đổi dữ liệu của cột: Hình thức thanh toán dịch vụ ngoài hợp đồng từ thanh toán theo hợp đồng thành Tự thanh toán
+2/ Màn hình: Danh sách người bệnh đã tiếp đón, tìm NB --> vào chi tiết NB --> nhấn button Sửa: tích tự trả cho những dịch vụ chỉ định ngoài hợp đồng --> nhấn button Lưu
+Mục đích của bước (2) để hệ thống sinh được phiếu thu thanh toán ở màn hình Danh sách phiếu thu"
+
+  utter_65080868113633ded84ce9f3:
+    - text: "Cần đẩy lệnh khám mới từ CRM để sinh mã hồ sơ mới (sử dụng chung mã NB)"
+
+  utter_65080868113633ded84ce9f4:
+    - text: "1/ Trường hợp đã tồn tại sẵn mẫu kết quả trong danh mục Mẫu kết quả Chẩn đoán hình ảnh và thăm dò chức năng: trường Tên dịch vụ, thêm tên dịch vụ cần gán mẫu kết quả có sẵn đó
++ Nếu thêm dịch vụ cho mẫu KQ rồi, người dùng cần nhấn vào icon ? (bên trên tay phải màn hình, nhấn ĐỒng bộ danh mục --> vào lại khách và add mẫu kết quả cho khách
+
+2/ Trường hợp chưa có mẫu kết quả của dịch vụ trong danh mục Mẫu kết quả Chẩn đoán hình ảnh và thăm dò chức năng --> Cần nhấn Thêm mới mẫu kết quả, điền thông tin: Tên mẫu+, mã+, thông tin KQ, KL, Cách thức can thiệp, phương thức can thiệp, Tên dịch vụ+"
+
+  utter_65080868113633ded84ce9f5:
+    - text: "NSD: Liên hệ Phòng CNTT/ Bộ phận phụ trách để xử lý
+Phòng CNTT:
+1. Vào Quản trị tài khoản
+2. Tìm kiếm và chọn tài khoản cần xử lý
+3. Bấm chọn Reset mật khẩu ở cột Thao tác
+=> Hệ thống sẽ reset mật khẩu mặc định của NSD về 123456"
+
+  utter_65080868113633ded84ce9f6:
+    - text: "Nguyên nhân là do máy tính có phần mềm Antivirus-> Phần mềm diệt virus đang mặc định rằng ISOFHTool là phần mềm không an toàn nên tự động xóa đi file cài => Không dùng được LCD + Không in nhanh được
+
+Xử lý:
+1.Tìm kiếm phần mềm antivirus
+2.Chỉnh lại phần mềm Antivirus cho phép không scan vào File ISOFHTool"
+
+  utter_65080868113633ded84ce9f7:
+    - text: "Nguyên nhân: Do URL của tool và Shortcut ở ngoài màn hình không trùng với nhau
+Xử lý:
+1.Vào tool xem URL là gì
+2.Copy lại URL xong tool và paste vào trang web
+3.Xóa đi cái Shortcut cũ và tạo Shortcut mới cho máy tính"
+
+  utter_65080868113633ded84ce9f8:
+    - text: "Xử lý:
+1.Mở Isoft tools
+2.Ấn nút lưu"
+
+  utter_65080868113633ded84ce9f9:
+    - text: "Xử lý:
+Tạm thời, khi gặp trường hợp này.
+1. Thoát trang hoặc Ctrl F5
+2. Chọn lại NB đó
+3. Nhập khoa nhập viện
+4. Lưu
+5. In lại phiếu nhập viện"
+
+  utter_65080868113633ded84ce9fa:
+    - text: "Xử lý
+Trường hợp chưa thanh toán:
+1.Đầu tiên gọi xuống phòng chỉ định dịch vụ đó yêu cầu hủy tiếp đón dịch vụ ấy đi
+2.Sau khi hủy tiếp đón thì dịch vụ sẽ rơi vào trạng thái chờ tiếp đón,lúc này mình có thể xóa chỉ định dịch vụ
+Trường hợp đã thanh toán:
+1.Đầu tiên gọi cho phòng thu thí chọn hủy thanh toán đi
+2.Trường hợp người bệnh đã tiếp nhận thì thực hiện thao tác như các bước trên và thanh toán lại
+3.Trường hợp người bệnh chưa được tiếp nhận vào phòng khám,hủy thanh toán ->hủy dịch vụ rồi thanh toán lại
+Hiện tại trường hợp ca LÊ KHẢ NHƯ
+Mã hồ sơ:
+2306080067
+Mã NB:
+2306006611
+Đang bị kẹt nguyên nhân là do bác sĩ quên xóa chỉ định ấy đi và đã thanh toán,người bệnh đã về."
+
+  utter_65080868113633ded84ce9fb:
+    - text: "Có 2 trường hợp
++ TH 1: Chưa tick không tính tiền (Bảo hiểm quốc tế) => Điều hành tick 'Không tính tiền' là OK
++ TH2: Bác sĩ lập bệnh án ngoài trú dài hạn
+1. Kiểm tra khoa điều trị dài hạn: Chọn Khoa khám bệnh mới đúng
+2. Kiểm tra bác sĩ nhập chẩn đoán bệnh chưa !!"
+
+  utter_65080868113633ded84ce9fc:
+    - text: "Cách xử lý:
+1.Ấn vào tiện ích khác,chọn hủy khám(Bỏi vì khi gọi vào rồi thì người sẽ chuyển từ trạng thái đang khám,nên mình phải hủy khám để NB chuyển sang trạng khái chờ khám)
+2.Chọn tiện íchh khác,đổi phòng thực hiện hoặc nhờ điều hành chuyển phòng dùm"
+
+  utter_65080868113633ded84ce9fd:
+    - text: "Cách xử lý:
+1. Kiểm tra lại xem là Không tính tiền đang là dịch vụ hay vật tư
+2. Nếu là Vật tư => Dô Khám Bệnh => Vật tư => Bút chì thần thánh => Nhấn không tính tiền => Lưu"
+
+  utter_65080868113633ded84ce9fe:
+    - text: "1. Vào màn hình Khám bệnh tìm tên NB
+2. Huỷ kết luận
+3. Xoá khoa nhận viện
+4. Tiện ích khác: Huỷ khám-> Đổi phòng thực hiện"
+
+  utter_65080868113633ded84ce9ff:
+    - text: "1.Chọn tiện ích khác
+2.Chọn hội chẩn
+3.Chọn tạo hội chẩn mới
+4.Nhập thông tin
+5.Ấn nút lưu
+6.Ấn nút in"
+
+  utter_65080868113633ded84cea00:
+    - text: "1.Kiểm tra xem máy in đang của máy hiện giờ tên gì
+2.Vào danh mục máy in setting lại khổ lấy cho đúng với định dạng
+3.Đồng bộ dữ liệu"
+
+  utter_65080868113633ded84cea01:
+    - text: "Trường hợp xảy ra khi trước đó NB đăng ký gói khám A sau đó đổi qua gói khám B nhưng hệ thống không cập nhật dữ liệu=> Bác sĩ chỉ định bộ DVKT của gói khám B thì hệ thống sẽ báo lỗi
+Hướng giải quyết
+1. Vào DS đã tiếp đón kiểm tra lại xem NB đang được đăng ký gói nào
+2. Ctrl F5 để load lại dữ liệu "
+
+  utter_65080868113633ded84cea02:
+    - text: "Bác sĩ cho số ngày đơn thuốc là 30 ngày nhưng trong đó có 1 loại thuốc chỉ cần uống 5 ngày
+Hướng giải quyết:
+1. Kê hết đơn thuốc như bình thường => Lưu đơn thuốc
+2. Nhấn vào cây bút chỉnh sửa line thuốc muốn chỉnh sửa
+3. Chỉnh sửa số ngày kê đơn tại trường thông tin 'Số ngày'
+4. Lưu"
+
+  utter_65080868113633ded84cea03:
+    - text: "1.Vào mục KẾT LUẬN KHÁM hoặc ấn F11
+2.Ấn đóng hồ sơ."
+
+  utter_65080868113633ded84cea04:
+    - text: "Hiện tại HIS ràng buộc phải đóng tạm ứng mới thao tác được thì đối với trường hợp này      
+1. Tick không tính tiền
+2. Vào MH Khám bệnh ấn 'Bỏ qua'
+Hoặc nếu NB không khám
+=> Vào DS đã tiếp đón xóa luôn công khám
+=> Hủy tiếp đón NB"
+
+  utter_65080868113633ded84cea05:
+    - text: "Hiện tại: trên HIS nếu bác sĩ cho chỉ định xét nghiệm liên quan đến máu thì sau khi chỉ định trạng thái DV sẽ ở trạng thái 'Chờ lấy mẫu' vì vậy muốn xóa sẽ không xóa được.
+Xử lý:
+1. Vào module Xét nghiệm trên HIS
+2. Xác nhận lấy mẫu
+3. Hủy lấy mẫu
+4. Vào MH Khám bệnh xóa chỉ định"
+
+  utter_65080868113633ded84cea06:
+    - text: "Trường hợp này là do bác sĩ không nhập Khoa chỉ định nhập viện.
+Xử lý:
+Vào mục Kết luận khám => Kéo xuống dòng Khoa chỉ định nhập viện => Chọn Khoa => Ấn Lưu => In phiếu chỉ định nhập viện"
+
+  utter_65080868113633ded84cea07:
+    - text: "Xử lý :
+1. Tìm kiếm người bệnh.
+2. Click vào xem chi tiết dịch vụ.
+3. Đưa dịch vụ về phòng Siêu âm (SA)."
+
+  utter_65080868113633ded84cea08:
+    - text: "Xử lý :
+1. Tìm kiếm dịch vụ người bệnh.
+2. Click vào xem chi tiết dịch vụ.
+3. Chọn mục Vật tư.
+4. Xóa Vật tư đã kê.
+5. Hủy tiếp nhận dịch vụ"
+
+  utter_65080868113633ded84cea09:
+    - text: "Xử lý:
+1.Vào màn hình thu ngân kiểm tra xem NB đang ở trạng thái nào
+2.Nếu người bệnh ở trạng thái đã kết thúc điều trị hoặc ra viện thì in lại bảng kê xem còn bị hay không(Vì có thể vừa mới cập nhật lại trạng thái)
+3.Nếu NB ở trạng thái đang điều trị thì ta kết thúc điều trị(Trong trường hợp NB đã hoàn thành) hoặc ngắt điều trị(Trong trường hợp NB sẽ quay lại điều trị) rồi in lại bảng kê)"
+
+  utter_65080868113633ded84cea0a:
+    - text: "Xử lý:
+1.Vào danh mục Khu Vực
+2.Ở phần Mã khu vực ta tìm kiếm tieuchuan
+3.Click vào đó,chỉnh lại loại đối tượng từ tiêu chuẩn sang Tăng cường"
+
+  utter_65080868113633ded84cea0b:
+    - text: "Xử lý:
+1. Click vào biểu tượng máy in
+2. Xóa các lệnh in cũ
+3. In lại phiếu"
+
+  utter_65080868113633ded84cea0c:
+    - text: "Xử lý:
+1. scan mã hồ sơ vào màn hình thu ngân
+2. in lại bảng kê"
+
+  utter_65080868113633ded84cea0d:
+    - text: "Xử lý : 1) kêu họ kê đúng là khám mắt hay khám răng hàm mặt ,2) kêu họ nhắn lên khth nhờ hướng dẫn kê dịch vụ"
+
+  utter_65080868113633ded84cea0e:
+    - text: "Xử lý:1) kết thúc điều trị dài hạn rồi in tiếp"
+
+  utter_65080868113633ded84cea0f:
+    - text: "cách xử lý:
+1.ấn vào Sửa thông tin đổi loại đối tượng thành BHYT
+2.Sau đó sửa loại hình thanh toán ở phần người bệnh đã tiếp đón là thu  phí/BHYT"
+
+  utter_65080868113633ded84cea10:
+    - text: "cách xử lý:
+1.thanh toán phiếu thu cũ, trường hợp thuốc không tính tiền nhờ
+điều khu người bệnh khám cũ tick vào ô không tính tiền
+2.Sau đó mới lịa b ình thường,"
+
+  utter_65080868113633ded84cea11:
+    - text: "1.Kiểm tra xem người bệnh đang có trong trạng thái đang điều trị không
+2.Nếu đang trong quá trình điều trị
+2.1.Ngắt điều trị(trong trường hợp NB tiếp tục điều trị , in bảng kê rồi điều trị lại)
+2.2.Kết thúc điều trị rồi in bảng kê(trong trường hợp hoàn tất điều trị)"
+
+  utter_65080868113633ded84cea12:
+    - text: "1.NB đã thanh toán -> gọi kế toán yêu cầu hủy xuất HDDT và hủy thanh toán
+2.Vào danh sách NB đã tiếp đón
+3.Chọn sửa thông tin
+4.Nhập mã BHYT"
+
+  utter_65080868113633ded84cea13:
+    - text: "Xử lý:
+1. Bác sĩ hủy kết luận, hủy khám
+2. Tiếp đón hủy dịch vụ cũ, kê lại dịch vụ "
+
+  utter_65080868113633ded84cea14:
+    - text: "Xử lý:
+1. Khi nhập thông tin đối tượng tiêm chủng, hệ thống sẽ hiển thị thông tin NB đã được nhập trước đó
+2. Click vào thông tin NB để tiếp nhận NB, đồng ý sinh ra mã HS mới
+3. Kê dịch vụ như bình thường"
+
+  utter_65080868113633ded84cea15:
+    - text: "Xử lý:
+1. Vào phòng khám click hủy khám
+2. Quầy tiếp đón vào 'Danh sách NB đã tiếp đón' và bấm sửa phòng "
+
+  utter_65080868113633ded84cea16:
+    - text: "Xử lý:
+1. Ở màn hình Tiếp đón Tiêm chủng, chọn đối tượng là 'CBNV' và nhập thôn tin NB như bth
+2. Chỉ định dịch vụ và phòng khám như các đối tượng khám khác
+3. Vào màn hình 'Danh sách NB đã tiếp đón' và tick không tính tiền"
+
+  utter_65080868113633ded84cea17:
+    - text: "Xử lý:
+Báo lên Isofh để  xóa vì hiện tại tính năng xóa chưa có"
+
+  utter_65080868113633ded84cea18:
+    - text: "Xử lý:
+TN hoàn tạm ứng sẽ là người thanh toán luôn cả dịch vụ."
+
+  utter_65080868113633ded84cea19:
+    - text: "Xử lý:
+1. Chọn kết thúc điều trị.
+2. Chọn line ngày giường muốn chỉnh sửa hoặc xóa.
+3. Chọn biểu tượng 'Mắt' chọn tiếp 'Bút chì' và chỉnh sửa lại số ngày, thời gian nằm muốn đổi.
+4. Chọn dấu 'tích' để lưu.
+5. Chọn biểu tượng 'Thùng rác' để xóa."
+
+  utter_65080868113633ded84cea1a:
+    - text: "Xử lý:
+1. Chọn vào dịch truyền không link.
+2. Bấm vào bút chì và kiểm tra 'Đường dùng' của dịch.
+2. Nếu sai đường dùng thì chọn lại và lưu."
+
+  utter_65080868113633ded84cea1b:
+    - text: "BS kê dịch vụ lại và hành chính khoa in bảng kê BHYT"
+
+  utter_65080868113633ded84cea1c:
+    - text: "1. Kết thúc điều trị
+2. Chỉnh sửa số ngày phòng giường theo đúng thực tế"
+
+  utter_65080868113633ded84cea1d:
+    - text: "1. Vào thông tin chung chọn thông tin ra viện
+2. Xóa ngày giờ ra viện --> Ấn lưu"
+
+  utter_65080868113633ded84cea1e:
+    - text: "1. Kiểm tra hồ sơ xem có điều kiện nào vẫn chưa thỏa mãn
+2. Giải quyết các điều kiện đó - vào xem DV nội trú về những thông tin của các dịch vụ:
+2.1. Dịch vụ chưa hoàn thành - liên hệ với bác sĩ xem dịch vụ đó có thực hiện chưa nếu có rồi thì nhờ bs hoàn thành DV đó với thời gian hoàn thành trước thời gian ra viện
+2.2. Vướng thuốc: nếu thuốc đã lĩnh -> trả thuốc; nếu thuốc chưa lĩnh -> xóa thuốc đó trong tờ điều trị
+2.3. Lỗi liên quan đến thời gian -> vào DV nội trú sửa lại thời gian cho trước thời gian ra viện hoặc thời gian ra viện sau thời gian đó"
+
+  utter_65080868113633ded84cea1f:
+    - text: "1. Kết thúc điều trị
+2. Hoàn thành dịch vụ chưa trả kết quả, lĩnh thuốc đối với thuốc chưa lĩnh
+3. Hướng điều trị chuyển viện -> Hoàn thành giấy chuyển tuyến-> In giấy chuyển tuyến"
+
+  utter_65080868113633ded84cea20:
+    - text: "Trên hệ thống BS cho chỉ định xong in phiếu chỉ định, trường hợp người nhà không đồng ý thì xoá chỉ định ."
+
+  utter_65080868113633ded84cea21:
+    - text: "1. Nếu tiếp đón vào khoa, đã kê vật tư hoặc có chỉ định -> xóa chỉ định, vật tư
+2. Tiện ích khác -> Hủy tiếp nhận người bệnh
+3. Xóa bỏ mã bệnh án ở màn hình lập bệnh án
+4. Hủy Kết luận ở màn hình khám bệnh và kê dịch vụ "
+
+  utter_65080868113633ded84cea22:
+    - text: "Hướng dẫn BS phân lại phòng thực hiện tại khoa để điều dưỡng có thể tìm tấy NB và nhập các loại thuốc cũng như vật tư cần cho dịch vụ"
+
+  utter_65080868113633ded84cea23:
+    - text: "Do TK khác vô sửa không lưu hoặc do lần tạo tờ điều trị chưa lưu thành công. HD BS sau khi sửa tờ điều trị nên đợi sau 5 phút mới tắt Tab."
+
+  utter_65080868113633ded84cea24:
+    - text: "1.Vô Trường phòng giường kiểm tra xem NB có đang nằm trên giường ngày tạo phiếu lĩnh thuốc hay không
+- Nếu 'Không' -> Thêm lại phòng giường
+- Nếu ' Có'  ->Kiểm tra thời gian nằm đến ngày xem đúng chưa? -> Chỉnh lại thời gian
+2. Tạo thêm phiếu lĩnh"
+
+  utter_65080868113633ded84cea25:
+    - text: "1.Chỉ tạo tờ điều trị trước trong trường hợp biết chắc rằng NB sẽ không chuyển khoa
+2.Nếu NB chuyển khoa thì phải xóa tờ điều trị trước đó đi
+3.Sau khi chuyển về lại khoa ban đầu thì chỉ định tờ điều trị mới"
+
+  utter_65080868113633ded84cea26:
+    - text: "1. Thu ngân liên hệ Khoa Cho NB vào viện lại
+2. Khoa chỉnh sửa thời gian của tờ điều trị thành trước thời gian hiện tại (ví dụ 9h20)
+3. Điều chỉnh thời gian thực hiện của các dịch vụ, thuốc, ... trong tờ điều trị
+4. Kết thúc điều trị
+5. In lại bảng kê"
+
+  utter_65080868113633ded84cea27:
+    - text: "Sửa lại tên NB đúng"
+
+  utter_65080868113633ded84cea28:
+    - text: "1. Xóa phiếu lĩnh suất ăn
+2. Điều chỉnh số lượng "
+
+  utter_65080868113633ded84cea29:
+    - text: "BS kê dịch vụ lại và hành chính khoa in bảng kê BHYT"
+
+  utter_65080868113633ded84cea2a:
+    - text: "Hướng dẫn xuất hủy phần thuốc lẻ. Hướng dẫn BS đánh thuốc từ tủ trực chẵn đối với 1 số thuốc hủy ngay hoặc hủy sau 24h SL chẵn để tổng hợp lĩnh bù tủ trực"
+
+  utter_65080868113633ded84cea2b:
+    - text: "Lý do: Loại Thuốc lĩnh trong kho thuốc bệnh viện đã hết tồn hoặc loại thuốc đó tồn tại nhiều mã mà mã muốn lĩnh đã hết .
+Gọi xuống kho Dược để Dược xử lý."
+
+  utter_65080868113633ded84cea2c:
+    - text: "1. Vào màn hình danh sách người bệnh nội trú
+2. Chọn đúng khoa làm việc
+3. Sử dụng bộ lọc, lọc trường trạng thái thành 'TẤT CẢ' và ấn tìm
+4. Tiến hành tìm NB thông qua tên, mã NB, mã HS, mã BA"
+
+  utter_65080868113633ded84cea2d:
+    - text: "1. Vào màn hình danh sách người bệnh nội trú
+2. Chọn đúng tên người bệnh cần cập nhật thông tin ngày giường
+3. Vào tab PHÒNG, GIƯỜNG
+4. Chọn Line giường cần chỉnh sửa
+5. Ấn vào icon hình mắt để xem thông tin
+6. Ấn vào icon cây bút là chỉnh sửa trường số lượng và ấn tick để lưu lại thay đổi
+Chú ý: Chỉ có thể thay đổi thông tin phòng, giường bằng tài khoản điều dưỡng trưởng hoặc hành chính khoa"
+
+  utter_65080868113633ded84cea2e:
+    - text: "1. Bác sĩ chỉ định dịch vụ cần thực hiện
+2. Tại màn hình Phẫu thuật thủ thuật --> Tiếp nhận --> Điền thông tin --> Nhấn chọn Không phẫu thuật
+
+--> Mục đích: Có thông tin để in tờ tường trình, dịch vụ  không tính tiền và không lên bảng kê"
+
+  utter_65080868113633ded84cea2f:
+    - text: "1. Vào  DV Nội trú
+2. Kiểm tra DV nào Trống Loại hình thanh toán thì bổ sung. "
+
+  utter_65080868113633ded84cea30:
+    - text: "Thiết lập trình duyệt cho phép mở tab mới"
+
+  utter_65080868113633ded84cea31:
+    - text: "Hủy hết các lệnh in đang chờ => in lại => nếu vẫn không được thì tạm thời tắc tool in thường"
+
+  utter_65080868113633ded84cea32:
+    - text: "Kiểm tra tool có dẫn đúng thư mục lưu ảnh trên máy scan chưa, nếu chưa thì sửa lại đường dẫn đến thư mục lưu ảnh trên máy"
+
+  utter_65080868113633ded84cea33:
+    - text: "Vào tờ điều trị chọn chuyển đổi dịch vụ, tìm dịch vụ muốn chuyển đổi, ấn xác nhận"
+
